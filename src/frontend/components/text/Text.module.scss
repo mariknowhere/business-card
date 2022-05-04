@@ -1,0 +1,18 @@
+@import 'src/frontend/constants/textMixins';
+
+.text {
+  display: flex;
+  word-break: break-word;
+
+  &-l {
+    @include l-size-mixin;
+  }
+
+  &-m {
+    @include m-size-mixin;
+  }
+
+  &-s {
+    @include s-size-mixin;
+  }
+}

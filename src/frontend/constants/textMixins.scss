@@ -1,0 +1,37 @@
+@import 'src/frontend/constants/sizes';
+
+@mixin l-size-mixin() {
+  font-size: $font-size-l;
+  line-height: $line-height-l;
+  font-weight: $font-weight-text;
+}
+
+@mixin m-size-mixin() {
+  font-size: $font-size-m;
+  line-height: $line-height-m;
+  font-weight: $font-weight-text;
+}
+
+@mixin s-size-mixin() {
+  font-size: $font-size-s;
+  line-height: $line-height-s;
+  font-weight: $font-weight-text;
+}
+
+@mixin h1-size-mixin() {
+  font-size: $font-size-h1;
+  line-height: $line-height-h1;
+  font-weight: $font-weight-title;
+}
+
+@mixin h2-size-mixin() {
+  font-size: $font-size-h2;
+  line-height: $line-height-h2;
+  font-weight: $font-weight-title;
+}
+
+@mixin h3-size-mixin() {
+  font-size: $font-size-h3;
+  line-height: $line-height-h3;
+  font-weight: $font-weight-title;
+}

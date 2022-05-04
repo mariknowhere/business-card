@@ -1,0 +1,18 @@
+@import 'src/frontend/constants/textMixins';
+
+.title {
+  display: flex;
+  word-break: break-word;
+
+  &-h1 {
+    @include h1-size-mixin;
+  }
+
+  &-h2 {
+    @include h2-size-mixin;
+  }
+
+  &-h3 {
+    @include h3-size-mixin;
+  }
+}

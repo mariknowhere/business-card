@@ -1,0 +1,16 @@
+@import 'src/frontend/constants/colors';
+
+.main-block {
+  padding: 20px 0;
+
+  &-description {
+    margin-bottom: 12px;
+    color: $primary-text-color;
+  }
+
+  &-title {
+    margin-bottom: 36px;
+    color: $primary-text-color;
+    width: 600px;
+  }
+}

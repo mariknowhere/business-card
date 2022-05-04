@@ -1,0 +1,15 @@
+@import 'src/frontend/constants/variables';
+
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+
+.page-content {
+  display: inherit;
+  flex-direction: column;
+  align-items: center;
+  max-width: $desktop-max-width;
+  margin: 0 auto;
+}

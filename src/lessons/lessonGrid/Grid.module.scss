@@ -1,0 +1,46 @@
+.grid {
+  display: grid;
+  max-width: 1920px;
+  height: 620px;
+}
+
+.grid-body {
+  display: inherit;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 30% 70%;
+}
+
+.grid-item {
+  text-align: center;
+  padding: 30px;
+  border: 2px dashed gray;
+}
+
+.grid-title {
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
+
+.grid-wrapper {
+  display: inherit;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 150px 1fr;
+  grid-template-areas:
+          "header header"
+          "side content"
+}
+
+.grid-header {
+  grid-area: header;
+}
+
+.grid-side-bar {
+  grid-area: side;
+}
+
+.grid-content {
+  grid-area: content;
+}

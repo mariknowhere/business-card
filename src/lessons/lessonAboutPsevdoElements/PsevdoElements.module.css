@@ -1,0 +1,31 @@
+.list {
+    padding: 20px;
+}
+
+li {
+    padding: 8px 0;
+    font-size: 24px;
+    line-height: 26px;
+}
+
+li:first-line {
+    color: gray;
+}
+
+.first-li:first-letter {
+    color: brown;
+}
+
+li:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background-color: bisque;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+li:hover:before {
+    background-color: brown;
+}

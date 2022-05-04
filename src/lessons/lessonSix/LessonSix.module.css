@@ -1,0 +1,80 @@
+.lesson-six-wrapper {
+    padding-left: 1rem;
+}
+
+.main-title {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 1.5rem 0;
+    color: gray;
+}
+
+.like-it,
+.css,
+.strong-text,
+.red-text,
+.right-align-text,
+.homework-text,
+.caps-text,
+.italic-text,
+.center-text,
+.big-text,
+.crossed-out-text,
+.little-text,
+.shadow-with-text {
+    margin-bottom: 1rem;
+}
+
+.css {
+    font-size: 22px;
+    font-weight: 500;
+    color: gray;
+}
+
+.strong-text {
+    font-weight: 600;
+}
+
+.red-text {
+    color: red;
+}
+
+.homework-text {
+    font-weight: 500;
+    color: gray;
+    font-size: 20px;
+}
+
+.right-align-text {
+    text-align: right;
+}
+
+.caps-text {
+    text-transform: uppercase;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.big-text {
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.crossed-out-text {
+    text-decoration: line-through;
+}
+
+.little-text {
+    letter-spacing: initial;
+    word-spacing: 1px;
+}
+
+.shadow-with-text {
+    text-shadow: 1px 1px 1px ;
+}
