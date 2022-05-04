@@ -1,0 +1,35 @@
+@import "src/frontend/styles/colors";
+
+.about-block {
+  display: flex;
+  flex-direction: row;
+}
+
+.about-block-image {
+  padding-left: 200px;
+}
+
+.about-block-topic {
+  justify-content: center;
+  margin-bottom: 8px;
+  font-weight: 700;
+  color: $secondary-text-color;
+}
+
+.about-block-description {
+  margin: 12px 0;
+  color: $secondary-text-color;
+}
+
+.about-block-content {
+  padding: 16px 32px;
+}
+
+.about-block-cards {
+  display: flex;
+  gap: 40px 20px;
+}
+
+.about-block-title {
+  color: $secondary-text-color
+}

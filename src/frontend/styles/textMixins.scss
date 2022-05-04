@@ -1,4 +1,4 @@
-@import 'src/frontend/constants/sizes';
+@import '../constants/sizes';
 
 @mixin l-size-mixin() {
   font-size: $font-size-l;
@@ -15,6 +15,12 @@
 @mixin s-size-mixin() {
   font-size: $font-size-s;
   line-height: $line-height-s;
+  font-weight: $font-weight-text;
+}
+
+@mixin xs-size-mixin() {
+  font-size: $font-size-xs;
+  line-height: $line-height-xs;
   font-weight: $font-weight-text;
 }
 

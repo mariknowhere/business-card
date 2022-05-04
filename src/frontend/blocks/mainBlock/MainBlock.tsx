@@ -10,7 +10,7 @@ import Button from "../../components/button/Button";
 const MainBlock: FC<IMainBlockProps> = ({ title, description, buttonText}) => {
     return (
         <div className={styles['main-block']} id='main'>
-            <Text children={description} variant={TextVariantEnum.L} classname={styles['main-block-description']} />
+            <Text children={description} variant={TextVariantEnum.L} className={styles['main-block-description']} />
             <Title variant={TitleVariantEnum.H1} children={title} className={styles['main-block-title']}/>
             <Button label={buttonText} />
         </div>

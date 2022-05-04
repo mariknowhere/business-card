@@ -5,7 +5,7 @@ export enum ButtonTypeEnum {
 
 export interface IButtonProps {
     label: string;
-    classname?: string;
+    className?: string;
     onClick?: () => void;
     type?: ButtonTypeEnum;
 }

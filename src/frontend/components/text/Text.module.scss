@@ -1,4 +1,4 @@
-@import 'src/frontend/constants/textMixins';
+@import '../../styles/textMixins';
 
 .text {
   display: flex;
@@ -14,5 +14,9 @@
 
   &-s {
     @include s-size-mixin;
+  }
+
+  &-xs {
+    @include xs-size-mixin;
   }
 }
