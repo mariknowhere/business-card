@@ -1,0 +1,9 @@
+@import 'src/frontend/styles/variables';
+@import 'src/frontend/styles/colors';
+
+.divider {
+  width: $divider-width;
+  height: $divider-height;
+  margin: 16px 0;
+  background-color: $orange-text-color;
+}

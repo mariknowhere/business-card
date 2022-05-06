@@ -8,7 +8,7 @@ const Text: FC<ITextProps> = ({ className, variant = TextVariantEnum.M, children
         <div className={classNames(className, styles['text'], styles[`text-${variant}`])}>
             {children}
         </div>
-    )
-}
+    );
+};
 
 export default Text;

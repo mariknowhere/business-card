@@ -1,9 +1,11 @@
 @import '../../styles/textMixins';
+@import 'src/frontend/styles/colors';
+@import 'src/frontend/styles/variables';
 
 .button {
   border: none;
   padding: 0;
-  transition: background-color 0.2s linear;
+  transition: background-color $animation-duration linear;
 
   &-content {
     display: flex;
@@ -28,14 +30,14 @@
 
   &-primary {
     outline: none;
-    background-color: orange;
+    background-color: $orange-text-color;
 
     &:not([disabled]):hover {
-      background-color: black;
+      background-color: $black-text-color;
     }
   }
 
   &:hover .button-text {
-      color: white;
+      color: $white-text-color;
     }
 }

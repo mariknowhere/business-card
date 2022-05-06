@@ -1,35 +1,31 @@
-@import "src/frontend/styles/colors";
+@import 'src/frontend/styles/colors';
+@import 'src/frontend/styles/variables';
 
 .about-block {
   display: flex;
   flex-direction: row;
-}
+  width: $block-max-width;
 
-.about-block-image {
-  padding-left: 200px;
-}
+  &-content {
+    padding: 16px 32px;
+    width: 670px;
+  }
 
-.about-block-topic {
-  justify-content: center;
-  margin-bottom: 8px;
-  font-weight: 700;
-  color: $secondary-text-color;
-}
+  &-title {
+    justify-content: left !important;
+  }
 
-.about-block-description {
-  margin: 12px 0;
-  color: $secondary-text-color;
-}
+  &-description {
+    margin: 12px 0;
+    color: $secondary-text-color;
+  }
 
-.about-block-content {
-  padding: 16px 32px;
-}
+  &-cards-wrapper {
+    display: flex;
+    gap: 40px 20px;
+  }
 
-.about-block-cards {
-  display: flex;
-  gap: 40px 20px;
-}
-
-.about-block-title {
-  color: $secondary-text-color
+  &-card {
+    width: 200px;
+  }
 }

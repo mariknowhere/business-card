@@ -10,7 +10,7 @@ const Button: FC<IButtonProps> = ({ onClick, className, label, type = ButtonType
                 <span className={styles['button-text']}>{label}</span>
             </span>
         </button>
-    )
-}
+    );
+};
 
 export default Button;

@@ -42,31 +42,33 @@ const App: FC = () => {
   };
 
   const experienceBlock = {
-    topic: '',
-    title: '',
+    topic: 'Experience',
+    title: 'How can I be useful',
     items: [
       {
-        title: '',
+        title: 'Education',
         items: [
           {
-            title: '',
-            topic: '',
-            description: '',
+            title: 'Belarusian National Technical University',
+            topic: 'Minsk | (2020 - 2024)',
+            description: `In 2020, I entered «the Faculty of Information Technology and Robotics» with a degree in 
+            «Information Systems and Technology Software»`,
           },
           {
-            title: '',
-            topic: '',
+            title: 'Course at Itransiton',
+            topic: 'Minsk | (2021)',
             description: '',
           },
         ]
       },
       {
-        title: '',
+        title: 'Working experience',
         items: [
           {
-            title: '',
-            topic: '',
-            description: '',
+            title: 'Itransition Group',
+            topic: 'Remote work | (2021 - now)',
+            description: `I have been working as a Front-end Web Developer for a year now. Had experience in banking 
+            project.`,
           },
         ]
       },
@@ -82,6 +84,6 @@ const App: FC = () => {
       </div>
     </div>
   );
-}
+};
 
 export default App;

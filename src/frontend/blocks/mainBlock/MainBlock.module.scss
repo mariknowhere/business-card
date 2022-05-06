@@ -1,7 +1,9 @@
 @import '../../styles/colors';
+@import '../../styles/variables';
 
 .main-block {
   padding: 20px 0;
+  width: $block-max-width;
 
   &-description {
     margin-bottom: 12px;

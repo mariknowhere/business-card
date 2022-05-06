@@ -1,0 +1,30 @@
+@import 'src/frontend/styles/colors';
+@import 'src/frontend/styles/variables';
+
+.experience-block {
+  display: flex;
+  flex-direction: column;
+  width: $block-max-width;
+  padding: 48px 0;
+
+  &-topic,
+  &-title {
+    justify-content: center;
+  }
+
+  &-divider {
+    margin: 24px auto 0 auto;
+  }
+
+  &-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 16px 0;
+  }
+
+  &-item {
+    padding: 32px 0 0 80px;
+    width: 400px;
+  }
+}

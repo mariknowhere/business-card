@@ -14,7 +14,7 @@ const MainBlock: FC<IMainBlockProps> = ({ title, description, buttonText}) => {
             <Title variant={TitleVariantEnum.H1} children={title} className={styles['main-block-title']}/>
             <Button label={buttonText} />
         </div>
-    )
-}
+    );
+};
 
 export default MainBlock;

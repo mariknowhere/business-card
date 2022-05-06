@@ -8,7 +8,7 @@ const Title: FC<ITitleProps> = ({ variant = TitleVariantEnum.H2, className, chil
         <div className={classNames(className, styles['title'], styles[`title-${variant}`])}>
             {children}
         </div>
-    )
-}
+    );
+};
 
 export default Title;

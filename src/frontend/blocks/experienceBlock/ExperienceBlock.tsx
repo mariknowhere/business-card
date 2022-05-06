@@ -3,31 +3,28 @@ import {IExperienceBlockProps} from "./ExperienceBlockTypes";
 import Text from "../../components/text/Text";
 import {TextVariantEnum} from "../../components/text/TextTypes";
 import styles from './ExperienceBlock.module.scss';
-import Title from "../../components/title/Title";
-import {TitleVariantEnum} from "../../components/title/TitleTypes";
 import Card from "../../components/card/Card";
+import Head from "../../components/head/Head";
 
 const ExperienceBlock: FC<IExperienceBlockProps> = ({ title, topic, items }) => {
     return (
-        <>
-            <Text children={topic} variant={TextVariantEnum.M} className={styles['experience-block-topic']} />
-            <Title children={title} variant={TitleVariantEnum.H1} className={styles['experience-block-title']}/>
+        <div className={styles['experience-block']} id='experience'>
+            <Head topicText={topic} titleText={title} classNameTopic={styles['experience-block-topic']}
+                classNameTitle={styles['experience-block-title']} classNameDivider={styles['experience-block-divider']} />
+            <div className={styles['experience-block-body']}>
                 {items.map((item) => (
                     <ul>
-                        <div>
-                            {item.title}
-                        </div>
-                        <li>
-                            {item.items.map((item) => (
-                                <div>
-                                    <Card {...item} />
-                                </div>
-                            ))}
-                        </li>
+                        <Text children={item.title} variant={TextVariantEnum.L}/>
+                        {item.items.map((item) => (
+                            <li className={styles['experience-block-item']}>
+                                <Card {...item} />
+                            </li>
+                        ))}
                     </ul>
                 ))}
-        </>
-    )
+            </div>
+        </div>
+    );
 };
 
 export default ExperienceBlock;
