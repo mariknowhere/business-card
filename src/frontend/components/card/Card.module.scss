@@ -1,11 +1,15 @@
 .card {
+  height: auto;
 
-}
+  &-image {
 
-.card-title {
-  font-weight: 700;
-}
+  }
 
-.card-topic {
-  margin: 0 0 4px;
+  &-title {
+    font-weight: 700;
+  }
+
+  &-description {
+    margin: 4px 0 0;
+  }
 }

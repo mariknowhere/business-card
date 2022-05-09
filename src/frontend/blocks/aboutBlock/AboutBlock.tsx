@@ -7,9 +7,9 @@ import styles from './AboutBlock.module.scss';
 import Card from "../../components/card/Card";
 import Head from "../../components/head/Head";
 
-const AboutBlock: FC<IAboutBlockProps> = ({ title, description, image, topic, cards }) => {
+const AboutBlock: FC<IAboutBlockProps> = ({ title, description, image, topic, cards, blockId }) => {
     return (
-        <div className={styles['about-block']} id='about'>
+        <div className={styles['about-block']} key={blockId}>
             <Image url={image.url} width={image.width} height={image.height} className={styles['about-block-image']} />
             <div className={styles['about-block-content']}>
                 <Head topicText={topic} titleText={title} classNameTopic={styles['about-block-topic']}
@@ -22,7 +22,7 @@ const AboutBlock: FC<IAboutBlockProps> = ({ title, description, image, topic, ca
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 
 export default AboutBlock;

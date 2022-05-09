@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-2: Added Image and Card components, About and Experience blocks">
-      <change afterPath="$PROJECT_DIR$/src/frontend/components/divider/Divider.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/components/divider/Divider.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/components/divider/DividerTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/components/head/Head.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/components/head/Head.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/components/head/HeadTypes.ts" afterDir="false" />
+    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-3: Added Divider and Head components, fixed another bugs and optimized application">
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlockTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/header/Header.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/header/HeaderTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/skillsBlock/SkillsBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/skillsBlock/SkillsBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/skillsBlock/SkillsBlockTypes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlockTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlockTypes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlockTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlockTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlockTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlockTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/button/Button.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/components/card/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/card/Card.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/components/card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/card/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/card/CardTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/card/CardTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/image/Image.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/image/Image.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/pages/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/pages/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/styles/colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/styles/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,7 +139,10 @@
       <workItem from="1651672573308" duration="13452000" />
       <workItem from="1651741922206" duration="2212000" />
       <workItem from="1651783666582" duration="5394000" />
-      <workItem from="1651858957419" duration="2155000" />
+      <workItem from="1651858957419" duration="3148000" />
+      <workItem from="1651928621566" duration="14305000" />
+      <workItem from="1652007582025" duration="8646000" />
+      <workItem from="1652030952336" duration="1915000" />
     </task>
     <task id="LOCAL-00001" summary="Add(Button,Title,Text,MainBlock): Added Button, Title, Text, MainBlock (constants: sizes, textMixins, variables, colors)">
       <created>1651675209372</created>
@@ -155,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651700849111</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="C-3: Added Divider and Head components, fixed another bugs and optimized application">
+      <created>1651861514599</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1651861514600</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +197,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add(Button,Title,Text,MainBlock): Added Button, Title, Text, MainBlock (constants: sizes, textMixins, variables, colors)" />
     <MESSAGE value="C-2: Added Image and Card components, About and Experience blocks" />
-    <option name="LAST_COMMIT_MESSAGE" value="C-2: Added Image and Card components, About and Experience blocks" />
+    <MESSAGE value="C-3: Added Divider and Head components, fixed another bugs and optimized application" />
+    <option name="LAST_COMMIT_MESSAGE" value="C-3: Added Divider and Head components, fixed another bugs and optimized application" />
   </component>
 </project>

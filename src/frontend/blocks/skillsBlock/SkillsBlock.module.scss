@@ -1,0 +1,29 @@
+@import 'src/frontend/styles/colors';
+@import 'src/frontend/styles/variables';
+
+.skills-block {
+  display: flex;
+  flex-direction: column;
+  width: $block-max-width;
+  padding: 48px 0;
+
+  &-cards-wrapper {
+    display: grid;
+    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
+    gap: 16px;
+    margin-top: 32px;
+  }
+
+  &-card {
+    padding: 25px;
+    background-color: $white-text-color;
+
+    &-image {
+      margin-bottom: 20px;
+    }
+  }
+
+  &-divider {
+    margin: 24px auto 0 auto;
+  }
+}
