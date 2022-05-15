@@ -2,8 +2,8 @@
 @import 'src/frontend/styles/colors';
 
 .contacts-block {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 488px 585px;
   justify-content: space-between;
   padding: 48px 0;
   width: $block-max-width;
@@ -15,35 +15,40 @@
     }
   }
 
-  &-items-wrapper {
-    margin-top: 16px;
-  }
-
-  &-item {
-    text-decoration: none;
-    background-color: transparent;
-
-    &:not(:last-child) {
-      margin-right: 16px;
-    }
+  &-socials {
+    margin: 16px 0;
   }
 
   &-form {
     display: grid;
     grid-template: 45px 190px 45px / repeat(2, 280px);
     justify-content: space-between;
+    row-gap: 32px;
+    position: relative;
+    margin-top: 22px;
   }
 
   &-input {
     width: 100%;
     height: 100%;
     font-size: 12px;
-    padding: 0 20px;
+    padding: 0 8px;
     color: $black-text-color;
 
     &-wrapper {
       position: relative;
     }
+  }
+
+  &-label {
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    height: 18px;
+    padding: 0 8px;
+    font-size: 12px;
+    background-color: $orange-text-color;
+    font-weight: 600;
   }
 
   &-textarea {
@@ -52,10 +57,11 @@
     resize: none;
     font-size: 12px;
     color: $black-text-color;
-    padding: 20px;
+    padding: 9px;
 
     &-wrapper {
-
+      position: relative;
+      grid-column: 1/3;
     }
   }
 }

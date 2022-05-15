@@ -5,11 +5,15 @@
   display: flex;
   flex-direction: row;
   width: $block-max-width;
-  padding: 48px 0;
+  padding: 96px 0 48px;
 
   &-content {
     padding: 16px 32px;
     width: 670px;
+  }
+
+  &-topic {
+
   }
 
   &-title {

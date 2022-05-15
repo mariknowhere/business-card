@@ -1,8 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-4: Added Header, Contacts and Skills blocks, fixed another bugs and optimized application">
+    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-5: Delete lessons packages and added image">
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/header/Header.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenuTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/MenuTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/components/social/Social.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/components/social/Social.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/components/social/SocialTypes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/styles/designMixins.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlockTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlockTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/header/HeaderTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/header/HeaderTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/pages/App.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/pages/App.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/pages/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/pages/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/styles/colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/styles/colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/styles/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reset.css" beforeDir="false" afterPath="$PROJECT_DIR$/reset.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +81,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\projects\js projects\area-for-upgrade" />
       <recent name="D:\projects\js projects\area-for-upgrade\src\frontend\styles" />
       <recent name="D:\projects\js projects\area-for-upgrade\src\frontend\pages" />
       <recent name="D:\js projects\area-for-upgrade\src\Lessons\lessonFour" />
@@ -123,6 +151,15 @@
       <workItem from="1651928621566" duration="14305000" />
       <workItem from="1652007582025" duration="8646000" />
       <workItem from="1652030952336" duration="2743000" />
+      <workItem from="1652212056249" duration="774000" />
+      <workItem from="1652316454581" duration="1668000" />
+      <workItem from="1652347703423" duration="29000" />
+      <workItem from="1652350601130" duration="3272000" />
+      <workItem from="1652369084890" duration="2964000" />
+      <workItem from="1652374201037" duration="4320000" />
+      <workItem from="1652439427722" duration="3616000" />
+      <workItem from="1652455850025" duration="9684000" />
+      <workItem from="1652615352721" duration="1251000" />
     </task>
     <task id="LOCAL-00001" summary="Add(Button,Title,Text,MainBlock): Added Button, Title, Text, MainBlock (constants: sizes, textMixins, variables, colors)">
       <created>1651675209372</created>
@@ -152,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652098655348</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="C-5: Delete lessons packages and added image">
+      <created>1652212228535</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652212228535</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +230,8 @@
     <MESSAGE value="C-2: Added Image and Card components, About and Experience blocks" />
     <MESSAGE value="C-3: Added Divider and Head components, fixed another bugs and optimized application" />
     <MESSAGE value="C-4: Added Header, Contacts and Skills blocks, fixed another bugs and optimized application" />
-    <option name="LAST_COMMIT_MESSAGE" value="C-4: Added Header, Contacts and Skills blocks, fixed another bugs and optimized application" />
+    <MESSAGE value="C-5: Delete lessons packages" />
+    <MESSAGE value="C-5: Delete lessons packages and added image" />
+    <option name="LAST_COMMIT_MESSAGE" value="C-5: Delete lessons packages and added image" />
   </component>
 </project>

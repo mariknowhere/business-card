@@ -12,14 +12,58 @@ const App: FC = () => {
     blockId: 'header',
     image: {
       url: `images/header.jpg`,
-      height: 347,
     },
+    items: [
+      {
+        href: '',
+        content: 'About me',
+      },
+      {
+        href: '',
+        content: 'Experience'
+      },
+      {
+        href: '',
+        content: 'Skills'
+      },
+      {
+        href: '',
+        content: 'Portfolio'
+      },
+      {
+        href: '',
+        content: 'Contacts'
+      },
+    ],
+    socials: [
+      {
+        href: 'https://t.me/maybebabythink',
+        image: {
+          url: 'images/social/telegram.png',
+          height: 30,
+        },
+      },
+      {
+        href: 'https://www.linkedin.com/in/mariknowhere/',
+        image: {
+          url: 'images/social/linkedin.png',
+          height: 30,
+        },
+      },
+      {
+        href: 'https://github.com/mariknowhere',
+        image: {
+          url: 'images/social/github.png',
+          height: 30,
+        },
+      },
+    ],
   };
 
   const mainBlock = {
     blockId: 2,
     title: 'I`m a Front-end Web Developer from Belarus',
-    description: 'Hi! My name is Mark Strancheuski',
+    description: 'Hi, my name is Mark Strancheuski',
     buttonText: 'Portfolio',
   };
 
@@ -72,7 +116,7 @@ const App: FC = () => {
             topic: 'Minsk | (2021)',
             description: '',
           },
-        ]
+        ],
       },
       {
         title: 'Working experience',
@@ -83,7 +127,7 @@ const App: FC = () => {
             description: `I have been working as a Front-end Web Developer for a year now. Had experience in banking 
               project.`,
           },
-        ]
+        ],
       },
     ]
   };
@@ -191,6 +235,7 @@ const App: FC = () => {
   const contactsBlock = {
     blockId: 6,
     topic: 'Contacts',
+    buttonText: 'Send a message',
     image: {
       url: 'images/me.jpg',
       height: 533,
@@ -241,7 +286,7 @@ const App: FC = () => {
         name: 'text',
         id: 'text',
         content: 'Message',
-      }
+      },
     },
   };
 

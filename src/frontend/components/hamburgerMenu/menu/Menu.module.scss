@@ -1,0 +1,84 @@
+@import 'src/frontend/styles/colors';
+@import 'src/frontend/styles/variables';
+
+.menu {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  transform: translateX(-130%);
+  transition: all 0.6s;
+  z-index: $z-index-header;
+
+  &-active {
+    transform: translateX(0);
+  }
+
+  &-overlay {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    left: 22%;
+    backdrop-filter: blur(2px);
+  }
+
+  &-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    height: 100%;
+    background-color: $orange-text-color;
+  }
+
+  &-close-icon {
+    cursor: pointer;
+    align-self: end;
+    padding: 16px 16px 0 0;
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  &-items {
+    align-self: baseline;
+    padding-left: 60px;
+    flex: 1 1 auto;
+  }
+
+  &-item {
+    position: relative;
+    list-style-type: none;
+
+    &:not(:last-child) {
+      margin-bottom: 26px;
+    }
+
+    a {
+      text-decoration: none;
+      background-color: transparent;
+      color: $secondary-text-color;
+    }
+
+    &:hover {
+      &::before {
+        border: 1px solid $secondary-text-color;
+      }
+    }
+
+    &::before {
+      content: '';
+      position: absolute;
+      width: 15px;
+      height: 15px;
+      border-radius: 100%;
+      border: 1px solid $black-text-color;
+      bottom: 20%;
+      left: -20%;
+      transition: all .3s;
+    }
+  }
+
+  &-socials {
+    margin-bottom: 40px;
+  }
+}

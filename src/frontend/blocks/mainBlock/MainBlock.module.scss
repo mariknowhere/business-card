@@ -1,11 +1,26 @@
 @import '../../styles/colors';
 @import '../../styles/variables';
+@import '../../styles/designMixins';
 
 .main-block {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
   padding: 20px 0;
-  width: $block-max-width;
+  background: url("https://images.genius.com/859261be9ed37f8168e056a27cebfacf.1000x563x1.jpg") no-repeat 50%/cover;
+  z-index: $z-index-main-block;
+
+  &-wrapper {
+    position: absolute;
+    width: $block-max-width;
+    margin: 0 auto;
+    left: 15%;
+    bottom: 50%;
+  }
 
   &-description {
+    @include orange-circle;
+
     margin-bottom: 12px;
     color: $primary-text-color;
   }

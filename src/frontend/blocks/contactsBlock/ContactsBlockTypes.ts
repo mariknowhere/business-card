@@ -1,10 +1,5 @@
-import {IImageProps} from "../../components/image/ImageTypes";
 import {IAboutBlockProps} from "../aboutBlock/AboutBlockTypes";
-
-export interface IContactProps {
-    href: string;
-    image: IImageProps;
-}
+import {ISocialProps} from "../../components/social/SocialTypes";
 
 export interface IInputProps {
     name: string;
@@ -28,5 +23,6 @@ export interface IFormProps {
 export interface IContactsBlockProps extends IAboutBlockProps {
     form: IFormProps;
     subDescription?: string;
-    socials?: IContactProps[];
+    socials?: ISocialProps[];
+    buttonText?: string;
 }
