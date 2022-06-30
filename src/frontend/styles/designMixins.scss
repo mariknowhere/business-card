@@ -1,8 +1,8 @@
 @import 'colors';
 @import 'variables';
 
-@mixin orange-circle {
-  &:before {
+@mixin start-orange-circle {
+  &::before {
     content: '';
     position: absolute;
     width: 36px;
@@ -12,5 +12,19 @@
     z-index: $z-index-orange-circle;
     left: 0;
     bottom: 84%;
+  }
+}
+
+@mixin middle-orange-circle {
+  &::before {
+    content: '';
+    position: absolute;
+    width: 36px;
+    height: 36px;
+    border-radius: 100%;
+    background: $orange-text-color;
+    z-index: $z-index-orange-circle;
+    left: 47%;
+    top: -5px;
   }
 }

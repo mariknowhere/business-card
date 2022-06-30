@@ -8,7 +8,7 @@
   min-height: 100vh;
   padding: 20px 0;
   background: url("https://images.genius.com/859261be9ed37f8168e056a27cebfacf.1000x563x1.jpg") no-repeat 50%/cover;
-  z-index: $z-index-main-block;
+  z-index: $z-index-block;
 
   &-wrapper {
     position: absolute;
@@ -19,7 +19,7 @@
   }
 
   &-description {
-    @include orange-circle;
+    @include start-orange-circle;
 
     margin-bottom: 12px;
     color: $primary-text-color;

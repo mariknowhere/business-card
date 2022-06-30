@@ -1,11 +1,11 @@
 import {ICardProps} from "../../components/card/CardTypes";
-import {IAboutBlockProps} from "../aboutBlock/AboutBlockTypes";
+import {IBlockProps} from "../BlocksTypes";
 
 export interface IExperienceBlockColumnProps {
     title: string;
     items: ICardProps[];
 }
 
-export interface IExperienceBlockProps extends Pick<IAboutBlockProps, 'blockId' | 'topic' | 'title'> {
+export interface IExperienceBlockProps extends IBlockProps {
     items: IExperienceBlockColumnProps[];
 }

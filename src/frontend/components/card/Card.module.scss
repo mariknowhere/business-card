@@ -1,8 +1,16 @@
+@import 'src/frontend/styles/colors';
+
 .card {
   height: auto;
 
   &-image {
 
+  }
+
+  &-title,
+  &-topic,
+  &-description {
+    color: $secondary-text-color;
   }
 
   &-title {

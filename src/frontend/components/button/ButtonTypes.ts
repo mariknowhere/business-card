@@ -1,6 +1,5 @@
 export enum ButtonTypeEnum {
     Primary = 'primary',
-    Secondary = 'secondary'
 }
 
 export interface IButtonProps {

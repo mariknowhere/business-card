@@ -1,11 +1,9 @@
 import { ICardProps } from "../../components/card/CardTypes";
 import { IImageProps } from "../../components/image/ImageTypes";
+import {IBlockProps} from "../BlocksTypes";
 
-export interface IAboutBlockProps {
+export interface IAboutBlockProps extends IBlockProps {
     image: IImageProps;
-    title: string;
-    blockId?: number;
-    topic?: string;
     description?: string;
     cards?: ICardProps[];
 }

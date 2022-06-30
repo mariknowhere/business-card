@@ -1,5 +1,6 @@
 import {IAboutBlockProps} from "../aboutBlock/AboutBlockTypes";
 import {ISocialProps} from "../../components/social/SocialTypes";
+import {IBlockProps} from "../BlocksTypes";
 
 export interface IInputProps {
     name: string;
@@ -20,7 +21,7 @@ export interface IFormProps {
     text: ITextAreaProps;
 }
 
-export interface IContactsBlockProps extends IAboutBlockProps {
+export interface IContactsBlockProps extends Pick<IAboutBlockProps, 'image' | 'description'>, IBlockProps {
     form: IFormProps;
     subDescription?: string;
     socials?: ISocialProps[];

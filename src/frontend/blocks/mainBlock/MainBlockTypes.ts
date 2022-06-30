@@ -1,5 +1,6 @@
-import {IAboutBlockProps} from "../aboutBlock/AboutBlockTypes";
+import {IBlockProps} from "../BlocksTypes";
 
-export interface IMainBlockProps extends Pick<IAboutBlockProps, 'blockId' | 'title' | 'description'>{
+export interface IMainBlockProps extends IBlockProps {
     buttonText?: string;
+    description?: string;
 }

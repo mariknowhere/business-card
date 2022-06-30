@@ -1,11 +1,13 @@
 @import 'src/frontend/styles/colors';
 @import 'src/frontend/styles/variables';
+@import 'src/frontend/styles/designMixins';
 
 .about-block {
   display: flex;
   flex-direction: row;
   width: $block-max-width;
   padding: 96px 0 48px;
+  z-index: $z-index-block;
 
   &-content {
     padding: 16px 32px;
@@ -13,7 +15,9 @@
   }
 
   &-topic {
+    position: relative;
 
+    @include middle-orange-circle;
   }
 
   &-title {

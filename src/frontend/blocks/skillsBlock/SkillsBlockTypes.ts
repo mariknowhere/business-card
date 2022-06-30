@@ -1,6 +1,6 @@
 import {ICardProps} from "../../components/card/CardTypes";
-import {IAboutBlockProps} from "../aboutBlock/AboutBlockTypes";
+import {IBlockProps} from "../BlocksTypes";
 
-export interface ISkillsBlockProps extends Pick<IAboutBlockProps, 'blockId' | 'topic' | 'title'>{
+export interface ISkillsBlockProps extends IBlockProps {
     cards: ICardProps[];
 }
