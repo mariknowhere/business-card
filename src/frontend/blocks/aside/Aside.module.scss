@@ -1,0 +1,36 @@
+@import "src/frontend/styles/colors";
+
+.aside {
+  position: fixed;
+  top: 250px;
+  left: 50px;
+  height: 340px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 103;
+
+  &-social {
+    transform: rotate(-90deg);
+    margin: 0 0 18px 0;
+  }
+
+  &-divider {
+    width: 2px;
+    height: 70px;
+    background-color: $secondary-text-color;
+  }
+
+  &-title {
+    transform: rotate(-90deg) translate(-30%,-260%);
+    color: $secondary-text-color;
+    width: 150px;
+    pointer-events: none;
+
+    &-wrapper {
+      height: 150px;
+      width: 25px;
+    }
+  }
+}

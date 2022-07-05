@@ -15,14 +15,14 @@ const Menu: FC<IMenuProps> = ({ socials, items, menuActive, setMenuActive }) => 
                 <CloseIcon className={styles['menu-close-icon']} onClick={() => setMenuActive(!menuActive)} />
                 <ul className={styles['menu-items']}>
                     {items.map(({ href, content }) => (
-                        <li className={styles['menu-item']}>
+                        <li className={styles['menu-item']} key={href+content}>
                             <a href={href} ><Title children={content} variant={TitleVariantEnum.H1} /></a>
                         </li>
                     ))}
                 </ul>
                 <div className={styles['menu-socials']}>
-                    {socials.map((social) => (
-                        <Social {...social} />
+                    {socials.map(({href, image}) => (
+                        <Social href={href} image={image} key={href} />
                     ))}
                 </div>
             </div>

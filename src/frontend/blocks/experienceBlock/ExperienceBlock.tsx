@@ -13,13 +13,12 @@ const ExperienceBlock: FC<IExperienceBlockProps> = ({ title, topic, items, block
                 classNameTitle={styles['experience-block-title']} classNameDivider={styles['experience-block-divider']} />
             <div className={styles['experience-block-body']}>
                 {items.map((item) => (
-                    <ul>
+                    <ul key={item.title}>
                         <Title children={item.title} variant={TitleVariantEnum.H3} className={styles['experience-block-body-title']}/>
                         {item.items.map((item) => (
-                            <li className={styles['experience-block-body-item-wrapper']}>
+                            <li className={styles['experience-block-body-item-wrapper']} key={item.title}>
                                 <Card
                                     {...item}
-                                    key={item.title}
                                     className={styles['experience-block-body-item']}
                                     classNameHeader={styles['experience-block-body-item-header']}
                                 />

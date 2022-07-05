@@ -1,5 +1,32 @@
 export const store = {
-    headerBlockData: {
+    asideData: {
+        title: 'Social Media',
+        socials: [
+            {
+                href: 'https://t.me/maybebabythink',
+                image: {
+                    url: 'icons/social/telegram.png',
+                    height: 30,
+                },
+            },
+            {
+                href: 'https://www.linkedin.com/in/mariknowhere/',
+                image: {
+                    url: 'icons/social/linkedin.png',
+                    height: 30,
+                },
+            },
+            {
+                href: 'https://github.com/mariknowhere',
+                image: {
+                    url: 'icons/social/github.png',
+                    height: 30,
+                },
+            },
+        ],
+
+    },
+    headerData: {
         blockId: 'header',
         image: {
             url: `images/header.jpg`,
@@ -30,21 +57,21 @@ export const store = {
             {
                 href: 'https://t.me/maybebabythink',
                 image: {
-                    url: 'images/social/telegram.png',
+                    url: 'icons/social/telegram.png',
                     height: 30,
                 },
             },
             {
                 href: 'https://www.linkedin.com/in/mariknowhere/',
                 image: {
-                    url: 'images/social/linkedin.png',
+                    url: 'icons/social/linkedin.png',
                     height: 30,
                 },
             },
             {
                 href: 'https://github.com/mariknowhere',
                 image: {
-                    url: 'images/social/github.png',
+                    url: 'icons/social/github.png',
                     height: 30,
                 },
             },
@@ -66,7 +93,7 @@ export const store = {
         cards: [
             {
                 icon: {
-                    url: `images/about/devices.png`,
+                    url: `icons/about/devices.png`,
                     width: 26,
                 },
                 title: 'Web-development',
@@ -76,7 +103,7 @@ export const store = {
             },
             {
                 icon: {
-                    url: `images/about/web.png`,
+                    url: `icons/about/web.png`,
                     width: 26,
                 },
                 title: 'Application Development',
@@ -104,7 +131,7 @@ export const store = {
                 items: [
                     {
                         icon: {
-                            url: `images/experience/univer.png`,
+                            url: `icons/experience/univer.png`,
                             width: 26,
                         },
                         title: 'Belarusian National Technical University',
@@ -114,7 +141,7 @@ export const store = {
                     },
                     {
                         icon: {
-                            url: 'images/experience/course.png',
+                            url: 'icons/experience/course.png',
                             width: 26,
                         },
                         title: 'Course at Itransiton',
@@ -125,7 +152,7 @@ export const store = {
                     },
                     {
                         icon: {
-                            url: 'images/experience/english.png',
+                            url: 'icons/experience/english.png',
                             width: 26,
                         },
                         title: 'English course in Itransiton',
@@ -140,7 +167,7 @@ export const store = {
                 items: [
                     {
                         icon: {
-                            url: 'images/experience/it_work.png',
+                            url: 'icons/experience/it_work.png',
                             width: 26,
                         },
                         title: 'Itransition Group',
@@ -154,7 +181,7 @@ Slack.`,
                     },
                     {
                         icon: {
-                            url: 'images/experience/it_work.png',
+                            url: 'icons/experience/profolio.png',
                             width: 26,
                         },
                         title: 'Profolio',

@@ -19,13 +19,13 @@ const ContactsBlock: FC<IContactsBlockProps> = ({ title, topic, description, soc
                 <Text children={description} variant={TextVariantEnum.S} className={styles['contacts-block-head-description']} />
                 <div className={styles['contacts-block-socials']}>
                     {socials.map((social) => (
-                        <Social {...social} />
+                        <Social {...social} key={social.href} />
                     ))}
                 </div>
                 <Text children={subDescription} variant={TextVariantEnum.S} />
                 <form action='#' id={form.id} className={styles['contacts-block-form']} >
                     {form.inputs.map(({ content, name, id, type }) => (
-                        <div className={styles['contacts-block-input-wrapper']}>
+                        <div className={styles['contacts-block-input-wrapper']} key={id}>
                             <input required type={type} id={id} name={name} className={styles['contacts-block-input']}/>
                             <label htmlFor={id} className={styles['contacts-block-label']}>{content}</label>
                         </div>
