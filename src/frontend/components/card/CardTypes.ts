@@ -5,6 +5,9 @@ export interface ICardProps {
     topic?: string;
     description?: string;
     image?: IImageProps;
+    icon?: IImageProps;
     className?: string;
     classNameImage?: string;
+    classNameIcon?: string;
+    classNameHeader?: string;
 }

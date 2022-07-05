@@ -1,5 +1,6 @@
 @import 'src/frontend/styles/colors';
 @import 'src/frontend/styles/variables';
+@import 'src/frontend/styles/designMixins';
 
 .experience-block {
   display: flex;
@@ -12,6 +13,18 @@
     justify-content: center;
   }
 
+  &-topic {
+    z-index: 1;
+    position: relative;
+
+    @include orange-circle;
+
+    &::before {
+      left: 48.8%;
+      top: -6px;
+    }
+  }
+
   &-divider {
     margin: 24px auto 0 auto;
   }
@@ -21,10 +34,53 @@
     flex-direction: row;
     justify-content: space-around;
     padding: 16px 0;
-  }
 
-  &-item {
-    padding: 32px 0 0 80px;
-    width: 400px;
+    &-title {
+      padding-left: 32px;
+      position: relative;
+      z-index: 1;
+
+      @include orange-circle;
+
+      &::before {
+        width: 15px;
+        height: 15px;
+        left: -7px;
+        top: 30%;
+      }
+    }
+
+    &-item {
+        padding-left: 56px;
+
+      &-wrapper {
+        list-style-type: none;
+        position: relative;
+        padding-top: 32px;
+        width: 400px;
+
+        &::before {
+          content: '';
+          position: absolute;
+          height: 1px;
+          background-color: $orange-color;
+          width: 42px;
+          top: 55px
+        }
+
+        &::after {
+          content: '';
+          position: absolute;
+          width: 1px;
+          height: calc(100% + 16px);
+          top: -16px;
+          background-color: $orange-color;
+        }
+      }
+
+      &-header {
+        padding-left: 25px;
+      }
+    }
   }
 }

@@ -1,16 +1,30 @@
 @import 'src/frontend/styles/colors';
+@import 'src/frontend/styles/designMixins';
 
 .card {
   height: auto;
 
-  &-image {
-
+  &-header {
+    position: relative;
   }
 
-  &-title,
-  &-topic,
-  &-description {
-    color: $secondary-text-color;
+  &-icon {
+    position: relative;
+    left: -9px;
+    top: 8px;
+
+    &-wrapper {
+      position: absolute;
+      left: -10px;
+      z-index: 1;
+
+      @include orange-circle;
+
+      &::before {
+        right: 4px;
+        top: 4px;
+      }
+    }
   }
 
   &-title {

@@ -1,8 +1,10 @@
 @import '../../styles/textMixins';
+@import '../../styles/colors';
 
 .text {
   display: flex;
   word-break: break-word;
+  color: $primary-text-color;
 
   &-l {
     @include l-size-mixin;

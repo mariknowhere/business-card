@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './frontend/pages/App';
+import CommonPage from './frontend/pages/CommonPage';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
-    <App />
+    <CommonPage />
   </React.StrictMode>
 );

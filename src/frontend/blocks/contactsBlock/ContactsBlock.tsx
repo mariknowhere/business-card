@@ -16,7 +16,7 @@ const ContactsBlock: FC<IContactsBlockProps> = ({ title, topic, description, soc
             <div>
                 <Head topicText={topic} titleText={title} classNameTitle={styles['contacts-block-head-title']}
                     classNameTopic={styles['contacts-block-head-topic']} />
-                <Text children={description} variant={TextVariantEnum.S} />
+                <Text children={description} variant={TextVariantEnum.S} className={styles['contacts-block-head-description']} />
                 <div className={styles['contacts-block-socials']}>
                     {socials.map((social) => (
                         <Social {...social} />

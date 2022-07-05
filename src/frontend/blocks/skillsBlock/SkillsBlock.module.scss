@@ -1,11 +1,23 @@
 @import 'src/frontend/styles/colors';
 @import 'src/frontend/styles/variables';
+@import 'src/frontend/styles/designMixins';
 
 .skills-block {
   display: flex;
   flex-direction: column;
   width: $block-max-width;
   padding: 48px 0;
+
+  &-topic {
+    position: relative;
+    z-index: 1;
+
+    @include orange-circle;
+
+    &::before {
+      top: -6px;
+    }
+  }
 
   &-cards-wrapper {
     display: grid;
@@ -16,7 +28,7 @@
 
   &-card {
     padding: 25px;
-    background-color: $white-text-color;
+    background-color: $white-color;
 
     &-image {
       margin-bottom: 20px;

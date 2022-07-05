@@ -7,7 +7,7 @@ import styles from './SkillsBlock.module.scss';
 const SkillsBlock: FC<ISkillsBlockProps> = ({ topic, title, cards, blockId }) => {
     return (
         <div className={styles['skills-block']} key={blockId}>
-            <Head topicText={topic} titleText={title} classNameDivider={styles['skills-block-divider']} />
+            <Head topicText={topic} titleText={title} classNameDivider={styles['skills-block-divider']} classNameTopic={styles['skills-block-topic']} />
             <div className={styles['skills-block-cards-wrapper']}>
                 {cards.map((card) => (
                     <Card {...card} key={card.title} className={styles['skills-block-card']}

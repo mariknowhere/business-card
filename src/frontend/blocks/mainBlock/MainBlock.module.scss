@@ -7,7 +7,7 @@
   width: 100%;
   min-height: 100vh;
   padding: 20px 0;
-  background: url("https://images.genius.com/859261be9ed37f8168e056a27cebfacf.1000x563x1.jpg") no-repeat 50%/cover;
+  background: url('../../../../public/images/main.jpg') no-repeat 50%/cover;
   z-index: $z-index-block;
 
   &-wrapper {
@@ -19,15 +19,20 @@
   }
 
   &-description {
-    @include start-orange-circle;
-
     margin-bottom: 12px;
-    color: $primary-text-color;
+    color: $secondary-text-color !important;
+
+    @include orange-circle;
+
+    &::before {
+      left: -3px;
+      top: -3px;
+    }
   }
 
   &-title {
     margin-bottom: 36px;
-    color: $primary-text-color;
+    color: $secondary-text-color;
     width: 600px;
   }
 }

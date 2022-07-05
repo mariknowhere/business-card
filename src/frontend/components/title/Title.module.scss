@@ -1,8 +1,10 @@
 @import '../../styles/textMixins';
+@import '../../styles/colors';
 
 .title {
   display: flex;
   word-break: break-word;
+  color: $primary-text-color;
 
   &-h1 {
     @include h1-size-mixin;

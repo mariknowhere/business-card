@@ -17,7 +17,11 @@
   &-topic {
     position: relative;
 
-    @include middle-orange-circle;
+    @include orange-circle;
+
+    &::before {
+      top: -4px;
+    }
   }
 
   &-title {
@@ -26,12 +30,12 @@
 
   &-description {
     margin: 12px 0;
-    color: $secondary-text-color;
   }
 
   &-cards-wrapper {
     display: flex;
     gap: 40px 20px;
+    flex-wrap: wrap;
   }
 
   &-card {

@@ -28,7 +28,7 @@
     align-items: center;
     width: 22%;
     height: 100%;
-    background-color: $orange-text-color;
+    background-color: $orange-color;
   }
 
   &-close-icon {
@@ -71,7 +71,7 @@
       width: 15px;
       height: 15px;
       border-radius: 100%;
-      border: 1px solid $black-text-color;
+      border: 1px solid $black-color;
       bottom: 20%;
       left: -20%;
       transition: all .3s;
