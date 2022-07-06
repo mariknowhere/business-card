@@ -1,8 +1,8 @@
-import React, {FC} from "react";
-import {IContactsBlockProps} from "./ContactsBlockTypes";
-import Head from "../../components/head/Head";
+import React, { FC } from "react";
+import { IContactsBlockProps } from "./ContactsBlockTypes";
+import Header from "../../components/header/Header";
 import Text from "../../components/text/Text";
-import {TextVariantEnum} from "../../components/text/TextTypes";
+import { TextVariantEnum } from "../../components/text/TextTypes";
 import Image from "../../components/image/Image";
 import styles from './ContactsBlock.module.scss';
 import Button from "../../components/button/Button";
@@ -14,9 +14,13 @@ const ContactsBlock: FC<IContactsBlockProps> = ({ title, topic, description, soc
         <div className={styles['contacts-block']} key={blockId}>
             <Image {...image} />
             <div>
-                <Head topicText={topic} titleText={title} classNameTitle={styles['contacts-block-head-title']}
-                    classNameTopic={styles['contacts-block-head-topic']} />
-                <Text children={description} variant={TextVariantEnum.S} className={styles['contacts-block-head-description']} />
+                <Header topicText={topic} titleText={title} classNameTitle={styles['contacts-block-header-title']}
+                        classNameTopic={styles['contacts-block-header-topic']} />
+                <Text
+                    children={description}
+                    variant={TextVariantEnum.S}
+                    className={styles['contacts-block-header-description']}
+                />
                 <div className={styles['contacts-block-socials']}>
                     {socials.map((social) => (
                         <Social {...social} key={social.href} />
@@ -31,8 +35,14 @@ const ContactsBlock: FC<IContactsBlockProps> = ({ title, topic, description, soc
                         </div>
                     ))}
                     <div className={styles['contacts-block-textarea-wrapper']}>
-                        <textarea name={form.text.name} id={form.text.id} className={styles['contacts-block-textarea']} />
-                        <label htmlFor={form.text.id} className={styles['contacts-block-label']}>{form.text.content}</label>
+                        <textarea
+                            name={form.text.name}
+                            id={form.text.id}
+                            className={styles['contacts-block-textarea']}
+                        />
+                        <label htmlFor={form.text.id} className={styles['contacts-block-label']}>
+                            {form.text.content}
+                        </label>
                     </div>
                     <Button label={buttonText} />
                 </form>

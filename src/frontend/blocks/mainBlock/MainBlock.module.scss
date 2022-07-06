@@ -8,7 +8,7 @@
   min-height: 100vh;
   padding: 20px 0;
   background: url('../../../../public/images/main.jpg') no-repeat 50%/cover;
-  z-index: $z-index-block;
+  z-index: $z-index-component;
 
   &-wrapper {
     position: absolute;

@@ -1,11 +1,11 @@
-import React, {FC, useEffect, useState} from "react";
+import React, { FC, useEffect, useState } from "react";
 import Image from "../../components/image/Image";
-import {IHeaderProps} from "./HeaderTypes";
+import { IBannerProps } from "./BannerTypes";
 import Menu from "../../components/hamburgerMenu/menu/Menu";
 import HamburgerMenu from "../../components/hamburgerMenu/HamburgerMenu";
-import styles from './Header.module.scss';
+import styles from './Banner.module.scss';
 
-const Header: FC<IHeaderProps> = ({ image, items, socials }) => {
+const Banner: FC<IBannerProps> = ({ image, items, socials }) => {
     const [menuActive, setMenuActive] = useState(false);
 
     useEffect(() => {
@@ -18,11 +18,11 @@ const Header: FC<IHeaderProps> = ({ image, items, socials }) => {
 
     return (
         <>
-            <Image className={styles['header-image']} {...image} />
+            <Image className={styles['banner-image']} {...image} />
             <HamburgerMenu menuActive={menuActive} setMenuActive={setMenuActive} />
             <Menu menuActive={menuActive} setMenuActive={setMenuActive} items={items} socials={socials} />
         </>
     );
 };
 
-export default Header;
+export default Banner;

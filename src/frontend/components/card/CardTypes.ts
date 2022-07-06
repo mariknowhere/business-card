@@ -10,4 +10,8 @@ export interface ICardProps {
     classNameImage?: string;
     classNameIcon?: string;
     classNameHeader?: string;
+    classNameIconWrapper?: string;
+    classNameImageWrapper?: string;
+    classNameDescription?: string;
+    classNameTitle?: string;
 }

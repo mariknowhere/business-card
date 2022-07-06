@@ -1,6 +1,6 @@
 import React, { FC } from "react";
 import classNames from "classnames";
-import {IDividerProps} from "./DividerTypes";
+import { IDividerProps } from "./DividerTypes";
 import styles from './Divider.module.scss';
 
 const Divider: FC<IDividerProps> = ({ className }) => {

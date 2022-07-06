@@ -1,11 +1,11 @@
-import React, {FC} from 'react';
+import React, { FC } from 'react';
 import styles from './Menu.module.scss';
-import {IMenuProps} from "./MenuTypes";
+import { IMenuProps } from "./MenuTypes";
 import classNames from "classnames";
 import Social from "../../social/Social";
 import CloseIcon from '@mui/icons-material/Close';
 import Title from "../../title/Title";
-import {TitleVariantEnum} from "../../title/TitleTypes";
+import { TitleVariantEnum } from "../../title/TitleTypes";
 
 const Menu: FC<IMenuProps> = ({ socials, items, menuActive, setMenuActive }) => {
     return (

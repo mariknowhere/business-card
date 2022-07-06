@@ -1,9 +1,9 @@
-import React, {FC} from 'react';
-import {IAsideProps} from "./AsideTypes";
+import React, { FC } from 'react';
+import { IAsideProps } from "./AsideTypes";
 import Social from "../../components/social/Social";
 import Divider from "../../components/divider/Divider";
 import Text from "../../components/text/Text";
-import {TextVariantEnum} from "../../components/text/TextTypes";
+import { TextVariantEnum } from "../../components/text/TextTypes";
 import styles from './Aside.module.scss';
 
 const Aside: FC<IAsideProps> = ({ socials, title }) => {

@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import {ITextProps, TextVariantEnum} from "./TextTypes";
+import { ITextProps, TextVariantEnum } from "./TextTypes";
 import classNames from "classnames";
 import styles from './Text.module.scss';
 

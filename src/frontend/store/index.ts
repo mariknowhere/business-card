@@ -26,7 +26,7 @@ export const store = {
         ],
 
     },
-    headerData: {
+    bannerData: {
         blockId: 'header',
         image: {
             url: `images/header.jpg`,
@@ -81,7 +81,7 @@ export const store = {
         blockId: 2,
         title: 'I`m a Front-end Web Developer from Belarus',
         description: 'Hi, my name is Mark Strancheuski',
-        buttonText: 'Portfolio',
+        buttonText: 'My Skills',
     },
     aboutBlockData: {
         blockId: 3,
@@ -89,28 +89,32 @@ export const store = {
         title: 'My name is Mark',
         description: `I was born in Belarus, Polotsk. I went to study as a “software engineer” in Minsk, at the BNTU.
         In 2021, I got a job at Itransition as a Front-end Web Developer (React). I work remotely and live in
-        Novopolotsk, sometimes I visit Minsk. Now I am in search of a new project (company).`,
+        Novopolotsk, sometimes I visit Minsk. Now I am in search of a new company.`,
         cards: [
             {
-                icon: {
+                image: {
                     url: `icons/about/devices.png`,
-                    width: 26,
+                    width: 35,
                 },
                 title: 'Web-development',
-                description: `Web development is the building and maintenance of websites; it’s the work that happens 
-                behind the scenes to make a website look great, work fast and perform well with a seamless user 
-                experience.`,
+                description: `Web development is the building and maintenance of websites. I am engaged in ensuring the 
+                responsiveness of the user interface for various devices and browsers. Development of automation test 
+                cases. Effective team communication to ensure quality and timely software development`,
             },
             {
-                icon: {
-                    url: `icons/about/web.png`,
-                    width: 26,
+                image: {
+                    url: `icons/about/development.png`,
+                    width: 35,
                 },
                 title: 'Application Development',
                 description: `Application development is the process of designing, building, and implementing software 
           applications.`,
             },
             {
+                image: {
+                    url: `icons/about/design.png`,
+                    width: 35,
+                },
                 title: 'UI/UX Design',
                 description: `UX (User Experience) is responsible for how the interface works. UI (User Interface) for 
                 how the interface looks.`,
@@ -308,21 +312,21 @@ Slack.`,
             {
                 href: 'https://t.me/maybebabythink',
                 image: {
-                    url: 'images/social/telegram.png',
+                    url: 'icons/social/telegram.png',
                     height: 30,
                 },
             },
             {
                 href: 'https://www.linkedin.com/in/mariknowhere/',
                 image: {
-                    url: 'images/social/linkedin.png',
+                    url: 'icons/social/linkedin.png',
                     height: 30,
                 },
             },
             {
                 href: 'https://github.com/mariknowhere',
                 image: {
-                    url: 'images/social/github.png',
+                    url: 'icons/social/github.png',
                     height: 30,
                 },
             },

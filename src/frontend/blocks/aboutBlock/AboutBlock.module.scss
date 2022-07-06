@@ -7,11 +7,10 @@
   flex-direction: row;
   width: $block-max-width;
   padding: 96px 0 48px;
-  z-index: $z-index-block;
+  z-index: $z-index-component;
 
   &-content {
     padding: 16px 32px;
-    width: 670px;
   }
 
   &-topic {
@@ -34,11 +33,26 @@
 
   &-cards-wrapper {
     display: flex;
-    gap: 40px 20px;
+    gap: 30px 20px;
     flex-wrap: wrap;
   }
 
   &-card {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    z-index: $z-index-component;
     width: 200px;
+
+    &-header {
+      padding: 12px 10px 0 10px;
+
+      @include orange-circle;
+
+      &::before {
+        left: 0;
+        top: 0;
+      }
+    }
   }
 }

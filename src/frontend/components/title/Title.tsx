@@ -1,5 +1,5 @@
 import React, { FC } from 'react';
-import {ITitleProps, TitleVariantEnum} from "./TitleTypes";
+import { ITitleProps, TitleVariantEnum } from "./TitleTypes";
 import classNames from "classnames";
 import styles from './Title.module.scss';
 

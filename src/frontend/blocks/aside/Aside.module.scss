@@ -1,4 +1,5 @@
 @import "src/frontend/styles/colors";
+@import "src/frontend/styles/variables";
 
 .aside {
   position: fixed;
@@ -9,7 +10,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  z-index: 103;
+  z-index: $z-index-aside;
 
   &-social {
     transform: rotate(-90deg);

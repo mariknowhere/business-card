@@ -1,4 +1,4 @@
-export interface IHeadProps {
+export interface IHeaderProps {
     topicText: string;
     titleText: string;
     classNameTopic?: string;

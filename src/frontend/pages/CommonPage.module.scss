@@ -1,16 +1,11 @@
 @import '../styles/variables';
 
-.page-wrapper {
-  display: flex;
-  justify-content: center;
-  background: url('../../../public/images/background_template.jpg') repeat;
-}
-
 .page-content {
-  display: inherit;
+  display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
   max-width: $desktop-max-width;
   margin: 0 auto;
+  background: url('../../../public/images/background_template.jpg') repeat;
 }

@@ -1,30 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-8: Bugs fixed, application performance improved and store created">
-      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/aside/Aside.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/aside/Aside.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/aside/AsideTypes.ts" afterDir="false" />
+    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-9: Added aside block, optimized &lt;head/&gt; in index.html and bugs fixed">
+      <change afterPath="$PROJECT_DIR$/public/icons/skills/background_template.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/about/devices.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/about/web.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/experience/course.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/experience/english.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/experience/it_work.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/experience/univer.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/social/github.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/social/instagram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/social/linkedin.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/social/telegram.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/images/social/telegram.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/about/web.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/social/telegram.svg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aside/Aside.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aside/Aside.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aside/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aside/Aside.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlock.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/experienceBlock/ExperienceBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/banner/Banner.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/banner/Banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/header/HeaderTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/banner/BannerTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/skillsBlock/SkillsBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/skillsBlock/SkillsBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/skillsBlock/SkillsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/skillsBlock/SkillsBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/button/Button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/button/Button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/card/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/card/Card.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/card/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/card/CardTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/card/CardTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/divider/Divider.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/divider/Divider.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/social/Social.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/social/Social.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/social/SocialTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/social/SocialTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/head/Head.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/head/Head.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/head/HeadTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/header/HeaderTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/image/Image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/image/Image.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/image/ImageTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/image/ImageTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/text/Text.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/text/Text.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/title/Title.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/title/Title.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/pages/CommonPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/pages/CommonPage.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/pages/CommonPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/pages/CommonPage.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/styles/designMixins.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/styles/designMixins.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/styles/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/styles/variables.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +187,7 @@
       <workItem from="1657020242011" duration="5142000" />
       <workItem from="1657043488982" duration="2099000" />
       <workItem from="1657045614800" duration="6272000" />
+      <workItem from="1657062536009" duration="6577000" />
     </task>
     <task id="LOCAL-00001" summary="Add(Button,Title,Text,MainBlock): Added Button, Title, Text, MainBlock (constants: sizes, textMixins, variables, colors)">
       <created>1651675209372</created>
@@ -226,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657027073023</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="C-9: Added aside block, optimized &lt;head/&gt; in index.html and bugs fixed">
+      <created>1657062656416</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657062656416</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -265,6 +291,7 @@
     <MESSAGE value="C-6: Added HamburgerMenu, Menu and Social components, fixed another bugs and optimized application" />
     <MESSAGE value="C-7: Fixed another bugs and optimized application" />
     <MESSAGE value="C-8: Bugs fixed, application performance improved and store created" />
-    <option name="LAST_COMMIT_MESSAGE" value="C-8: Bugs fixed, application performance improved and store created" />
+    <MESSAGE value="C-9: Added aside block, optimized &lt;head/&gt; in index.html and bugs fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="C-9: Added aside block, optimized &lt;head/&gt; in index.html and bugs fixed" />
   </component>
 </project>

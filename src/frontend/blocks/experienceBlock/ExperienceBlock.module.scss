@@ -14,7 +14,7 @@
   }
 
   &-topic {
-    z-index: 1;
+    z-index: $z-index-component;
     position: relative;
 
     @include orange-circle;
@@ -38,7 +38,7 @@
     &-title {
       padding-left: 32px;
       position: relative;
-      z-index: 1;
+      z-index: $z-index-component;
 
       @include orange-circle;
 

@@ -10,7 +10,7 @@
 
   &-topic {
     position: relative;
-    z-index: 1;
+    z-index: $z-index-component;
 
     @include orange-circle;
 
@@ -29,9 +29,15 @@
   &-card {
     padding: 25px;
     background-color: $white-color;
+    background-image: url('../../../../public/icons/skills/background_template.svg');
 
     &-image {
       margin-bottom: 20px;
+    }
+
+    &-description,
+    &-title {
+      color: $black-color;
     }
   }
 

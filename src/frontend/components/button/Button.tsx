@@ -1,5 +1,5 @@
 import React, { FC } from "react";
-import {ButtonTypeEnum, IButtonProps} from "./ButtonTypes";
+import { ButtonTypeEnum, IButtonProps } from "./ButtonTypes";
 import classNames from "classnames";
 import styles from './Button.module.scss';
 
