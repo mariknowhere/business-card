@@ -5,6 +5,7 @@ nav {
   position: absolute;
   padding: 20px 32px 0 0;
   right: 0;
+  top: 0;
 }
 
 .hamburger-menu-button {
@@ -19,7 +20,7 @@ nav {
     position: absolute;
     width: 30px;
     height: 3px;
-    background-color: $hamburger-menu-color;
+    background-color: $color-hamburger-menu;
   }
 
   &::before {
@@ -30,7 +31,7 @@ nav {
     position: absolute;
     top: 44%;
     width: 36px;
-    background-color: $hamburger-menu-color;
+    background-color: $color-hamburger-menu;
     height: 3px;
     transform: rotate(360deg);
   }

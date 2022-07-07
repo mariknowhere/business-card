@@ -9,7 +9,7 @@ import Header from "../../components/header/Header";
 
 const AboutBlock: FC<IAboutBlockProps> = ({ title, description, image, topic, cards, blockId }) => {
     return (
-        <div className={styles['about-block']} key={blockId}>
+        <section className={styles['about-block']} id={blockId}>
             <Image url={image.url} width={image.width} height={image.height} className={styles['about-block-image']} />
             <div className={styles['about-block-content']}>
                 <Header topicText={topic} titleText={title} classNameTopic={styles['about-block-topic']}
@@ -21,13 +21,13 @@ const AboutBlock: FC<IAboutBlockProps> = ({ title, description, image, topic, ca
                             {...card}
                             key={card.title}
                             className={styles['about-block-card']}
-                            classNameImageWrapper={styles['about-block-card-banner']}
-                            classNameImage={styles['about-block-card-banner-image']}
+                            classNameImageWrapper={styles['about-block-card-header']}
+                            classNameImage={styles['about-block-card-header-image']}
                         />
                     ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

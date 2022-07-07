@@ -1,10 +1,14 @@
-# Getting Started with Create React CommonPage
+# Hello! This is my portfolio which you can check out!
 
-This project was bootstrapped with [Create React CommonPage](https://github.com/facebook/create-react-app).
+You can text me on [my telegram](https://t.me/maybebabythink).
 
-## Available Scripts
+## How to run the application?
 
-In the project directory, you can run:
+Go to the folder with the project and to install all the necessary packages write:
+
+### `npm install`
+
+When you have installed all the necessary packages, just write this to the console:
 
 ### `npm start`
 
@@ -14,12 +18,5 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+\
+Good luck, my friend!

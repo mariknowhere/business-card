@@ -63,7 +63,7 @@
           content: '';
           position: absolute;
           height: 1px;
-          background-color: $orange-color;
+          background-color: $color-orange;
           width: 42px;
           top: 55px
         }
@@ -74,7 +74,7 @@
           width: 1px;
           height: calc(100% + 16px);
           top: -16px;
-          background-color: $orange-color;
+          background-color: $color-orange;
         }
       }
 

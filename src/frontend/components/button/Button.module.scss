@@ -30,14 +30,14 @@
 
   &-primary {
     outline: none;
-    background-color: $orange-color;
+    background-color: $color-orange;
 
     &:not([disabled]):hover {
-      background-color: $black-color;
+      background-color: $color-black;
     }
   }
 
   &:hover .button-text {
-      color: $white-color;
+      color: $color-white;
     }
 }

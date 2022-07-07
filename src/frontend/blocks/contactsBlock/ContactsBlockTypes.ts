@@ -26,4 +26,6 @@ export interface IContactsBlockProps extends Pick<IAboutBlockProps, 'image' | 'd
     subDescription?: string;
     socials?: ISocialProps[];
     buttonText?: string;
+    emailSentSuccessfully?: string;
+    emailSentUnsuccessfully?: string;
 }

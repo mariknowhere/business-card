@@ -6,7 +6,7 @@ import styles from './SkillsBlock.module.scss';
 
 const SkillsBlock: FC<ISkillsBlockProps> = ({ topic, title, cards, blockId }) => {
     return (
-        <div className={styles['skills-block']} key={blockId}>
+        <section className={styles['skills-block']} id={blockId}>
             <Header
                 topicText={topic}
                 titleText={title}
@@ -25,7 +25,7 @@ const SkillsBlock: FC<ISkillsBlockProps> = ({ topic, title, cards, blockId }) =>
                     />
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

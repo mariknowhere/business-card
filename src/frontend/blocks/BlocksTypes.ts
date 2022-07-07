@@ -1,5 +1,5 @@
 export interface IBlockProps {
     title: string;
-    blockId: number;
+    blockId: string;
     topic?: string;
 }

@@ -4,7 +4,7 @@
 .text {
   display: flex;
   word-break: break-word;
-  color: $primary-text-color;
+  color: $color-text-primary;
 
   &-l {
     @include l-size-mixin;

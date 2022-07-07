@@ -29,7 +29,7 @@ const Card: FC<ICardProps> = ({
                 </div>
             )}
             <div>
-                <div className={classNames(classNameHeader, styles['card-banner'])}>
+                <div className={classNames(classNameHeader, styles['card-header'])}>
                     {icon && (
                         <div className={classNames(classNameIconWrapper, styles['card-icon-wrapper'])}>
                             <Image {...icon} className={classNames(classNameIcon, styles['card-icon'])} />

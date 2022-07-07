@@ -9,13 +9,13 @@ import Button from "../../components/button/Button";
 
 const MainBlock: FC<IMainBlockProps> = ({ title, description, buttonText, blockId}) => {
     return (
-        <div className={styles['main-block']} key={blockId}>
+        <section className={styles['main-block']} id={blockId}>
             <div className={styles['main-block-wrapper']}>
                 <Text children={description} variant={TextVariantEnum.L} className={styles['main-block-description']} />
                 <Title variant={TitleVariantEnum.H1} children={title} className={styles['main-block-title']}/>
                 <Button label={buttonText} />
             </div>
-        </div>
+        </section>
     );
 };
 

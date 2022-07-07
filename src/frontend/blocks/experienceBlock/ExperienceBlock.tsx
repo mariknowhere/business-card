@@ -8,7 +8,7 @@ import { TitleVariantEnum } from "../../components/title/TitleTypes";
 
 const ExperienceBlock: FC<IExperienceBlockProps> = ({ title, topic, items, blockId }) => {
     return (
-        <div className={styles['experience-block']} key={blockId}>
+        <section className={styles['experience-block']} id={blockId}>
             <Header topicText={topic} titleText={title}
                     classNameTopic={styles['experience-block-topic']}
                     classNameTitle={styles['experience-block-title']}
@@ -26,14 +26,14 @@ const ExperienceBlock: FC<IExperienceBlockProps> = ({ title, topic, items, block
                                 <Card
                                     {...item}
                                     className={styles['experience-block-body-item']}
-                                    classNameHeader={styles['experience-block-body-item-banner']}
+                                    classNameHeader={styles['experience-block-body-item-header']}
                                 />
                             </li>
                         ))}
                     </ul>
                 ))}
             </div>
-        </div>
+        </section>
     );
 };
 

@@ -33,23 +33,23 @@ export const store = {
         },
         items: [
             {
-                href: '',
+                href: '#main',
+                content: 'Hello, world!',
+            },
+            {
+                href: '#about',
                 content: 'About me',
             },
             {
-                href: '',
+                href: '#experience',
                 content: 'Experience'
             },
             {
-                href: '',
+                href: '#skills',
                 content: 'Skills'
             },
             {
-                href: '',
-                content: 'Portfolio'
-            },
-            {
-                href: '',
+                href: '#contacts',
                 content: 'Contacts'
             },
         ],
@@ -78,13 +78,13 @@ export const store = {
         ],
     },
     mainBlockData: {
-        blockId: 2,
+        blockId: 'main',
         title: 'I`m a Front-end Web Developer from Belarus',
         description: 'Hi, my name is Mark Strancheuski',
         buttonText: 'My Skills',
     },
     aboutBlockData: {
-        blockId: 3,
+        blockId: 'about',
         topic: 'About me',
         title: 'My name is Mark',
         description: `I was born in Belarus, Polotsk. I went to study as a “software engineer” in Minsk, at the BNTU.
@@ -126,7 +126,7 @@ export const store = {
         },
     },
     experienceBlockData: {
-        blockId: 4,
+        blockId: 'experience',
         topic: 'Experience',
         title: 'How can I be useful',
         items: [
@@ -198,7 +198,7 @@ Slack.`,
         ]
     },
     skillsBlockData: {
-        blockId: 5,
+        blockId: 'skills',
         topic: 'Skills',
         title: 'What do I use at work',
         cards: [
@@ -298,7 +298,7 @@ Slack.`,
         ],
     },
     contactsBlockData: {
-        blockId: 6,
+        blockId: 'contacts',
         topic: 'Contacts',
         buttonText: 'Send a message',
         image: {
@@ -353,5 +353,7 @@ Slack.`,
                 content: 'Message',
             },
         },
+        emailSentSuccessfully: 'Ваше сообщение отправлено!',
+        emailSentUnsuccessfully: 'Ваше сообщение не отправлено!',
     },
 }

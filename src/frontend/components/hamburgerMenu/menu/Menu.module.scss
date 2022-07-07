@@ -28,7 +28,7 @@
     align-items: center;
     width: 22%;
     height: 100%;
-    background-color: $orange-color;
+    background-color: $color-orange;
   }
 
   &-close-icon {
@@ -56,12 +56,12 @@
     a {
       text-decoration: none;
       background-color: transparent;
-      color: $secondary-text-color;
+      color: $color-text-secondary;
     }
 
     &:hover {
       &::before {
-        border: 1px solid $secondary-text-color;
+        border: 1px solid $color-text-secondary;
       }
     }
 
@@ -71,7 +71,7 @@
       width: 15px;
       height: 15px;
       border-radius: 100%;
-      border: 1px solid $black-color;
+      border: 1px solid $color-black;
       bottom: 20%;
       left: -20%;
       transition: all .3s;
@@ -79,6 +79,10 @@
   }
 
   &-socials {
-    margin-bottom: 40px;
+    margin-bottom: 50px;
+  }
+
+  &-social:not(:last-child) {
+    margin-right: 25px;
   }
 }

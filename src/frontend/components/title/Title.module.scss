@@ -4,7 +4,7 @@
 .title {
   display: flex;
   word-break: break-word;
-  color: $primary-text-color;
+  color: $color-text-primary;
 
   &-h1 {
     @include h1-size-mixin;

@@ -28,7 +28,7 @@
 
   &-card {
     padding: 25px;
-    background-color: $white-color;
+    background-color: $color-white;
     background-image: url('../../../../public/icons/skills/background_template.svg');
 
     &-image {
@@ -37,7 +37,7 @@
 
     &-description,
     &-title {
-      color: $black-color;
+      color: $color-black;
     }
   }
 

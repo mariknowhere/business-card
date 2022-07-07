@@ -20,7 +20,7 @@
 
   &-description {
     margin-bottom: 12px;
-    color: $secondary-text-color !important;
+    color: $color-text-secondary !important;
 
     @include orange-circle;
 
@@ -32,7 +32,7 @@
 
   &-title {
     margin-bottom: 36px;
-    color: $secondary-text-color;
+    color: $color-text-secondary;
     width: 600px;
   }
 }
