@@ -16,8 +16,26 @@
   }
 
   &-text {
-    @include m-size-mixin;
-    font-weight: 600;
+    @include l-size-mixin;
+
+    font-weight: 700;
+
+    &-secondary {
+      text-shadow: 0 0 20px $color-white;
+
+      &:hover {
+        text-shadow: 0 0 10px $color-white;
+
+      }
+    }
+
+    &-primary {
+      text-shadow: 0 0 20px $color-white;
+
+      &:hover {
+        text-shadow: 0 0 10px $color-white;
+      }
+    }
   }
 
   &:disabled {
@@ -34,6 +52,19 @@
 
     &:not([disabled]):hover {
       background-color: $color-black;
+    }
+  }
+
+  &-secondary {
+    outline: none;
+    background-color: transparent;
+
+    &:not([disabled]):hover {
+      background-color: $color-black;
+    }
+
+    &:global(.button-text) {
+      box-shadow: inset 0 0 0 2px $color-orange;
     }
   }
 

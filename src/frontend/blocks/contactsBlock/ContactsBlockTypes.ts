@@ -17,7 +17,8 @@ export interface ITextAreaProps {
 
 export interface IFormProps {
     id: string;
-    inputs: IInputProps[];
+    nameInput: IInputProps;
+    emailInput: IInputProps;
     text: ITextAreaProps;
 }
 

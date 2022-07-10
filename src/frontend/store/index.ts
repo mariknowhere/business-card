@@ -5,22 +5,22 @@ export const store = {
             {
                 href: 'https://t.me/maybebabythink',
                 image: {
-                    url: 'icons/social/telegram.png',
-                    height: 30,
+                    url: 'icons/aside/telegram.png',
+                    height: 50,
                 },
             },
             {
                 href: 'https://www.linkedin.com/in/mariknowhere/',
                 image: {
-                    url: 'icons/social/linkedin.png',
-                    height: 30,
+                    url: 'icons/aside/linkedin.png',
+                    height: 50,
                 },
             },
             {
                 href: 'https://github.com/mariknowhere',
                 image: {
-                    url: 'icons/social/github.png',
-                    height: 30,
+                    url: 'icons/aside/github.png',
+                    height: 50,
                 },
             },
         ],
@@ -57,22 +57,22 @@ export const store = {
             {
                 href: 'https://t.me/maybebabythink',
                 image: {
-                    url: 'icons/social/telegram.png',
-                    height: 30,
+                    url: 'icons/banner/telegram.png',
+                    height: 40,
                 },
             },
             {
                 href: 'https://www.linkedin.com/in/mariknowhere/',
                 image: {
-                    url: 'icons/social/linkedin.png',
-                    height: 30,
+                    url: 'icons/banner/linkedin.png',
+                    height: 40,
                 },
             },
             {
                 href: 'https://github.com/mariknowhere',
                 image: {
-                    url: 'icons/social/github.png',
-                    height: 30,
+                    url: 'icons/banner/github.png',
+                    height: 40,
                 },
             },
         ],
@@ -82,6 +82,9 @@ export const store = {
         title: 'I`m a Front-end Web Developer from Belarus',
         description: 'Hi, my name is Mark Strancheuski',
         buttonText: 'My Skills',
+        blockIdToScroll: '#skills',
+        secondaryButtonText: 'About me',
+        secondaryBlockIdToScroll: '#about',
     },
     aboutBlockData: {
         blockId: 'about',
@@ -204,33 +207,6 @@ Slack.`,
         cards: [
             {
                 image: {
-                    url: 'images/skills/javascript.png',
-                    height: 110,
-                },
-                title: 'JavaScript',
-                description: `JavaScript is a scripting language that enables you to create dynamically updating 
-                content, control multimedia, animate images, and pretty much everything else.`,
-            },
-            {
-                image: {
-                    url: 'images/skills/html.png',
-                    height: 110,
-                },
-                title: 'HTML/HTML5',
-                description: `HTML5 is the latest version of Hypertext Markup Language, the code that describes web 
-                pages.`,
-            },
-            {
-                image: {
-                    url: 'images/skills/css.png',
-                    height: 110,
-                },
-                title: 'CSS/CSS3',
-                description: `CSS3 makes changes to how some visual elements are implemented and rendered by a browser. 
-                However, it is not a single hugely unwieldy specification, unlike CSS2.`,
-            },
-            {
-                image: {
                     url: 'images/skills/react.svg',
                     height: 110,
                 },
@@ -250,12 +226,39 @@ Slack.`,
             },
             {
                 image: {
-                    url: 'images/skills/jest.png',
-                    height: 100,
+                    url: 'images/skills/javascript.png',
+                    height: 110,
                 },
-                title: 'Jest',
-                description: `Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works 
-                with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!`,
+                title: 'JavaScript',
+                description: `JavaScript is a scripting language that enables you to create dynamically updating 
+                content, control multimedia, animate images, and pretty much everything else.`,
+            },
+            {
+                image: {
+                    url: 'images/skills/typescript.png',
+                    height: 110,
+                },
+                title: 'TypeScript',
+                description: `TypeScript is a strongly typed programming language that builds on JavaScript, giving you 
+                better tooling at any scale.`,
+            },
+            {
+                image: {
+                    url: 'images/skills/html.png',
+                    height: 110,
+                },
+                title: 'HTML/HTML5',
+                description: `HTML5 is the latest version of Hypertext Markup Language, the code that describes web 
+                pages.`,
+            },
+            {
+                image: {
+                    url: 'images/skills/css.png',
+                    height: 110,
+                },
+                title: 'CSS/CSS3',
+                description: `CSS3 makes changes to how some visual elements are implemented and rendered by a browser. 
+                However, it is not a single hugely unwieldy specification, unlike CSS2.`,
             },
             {
                 image: {
@@ -279,21 +282,21 @@ Slack.`,
             },
             {
                 image: {
+                    url: 'images/skills/jest.png',
+                    height: 100,
+                },
+                title: 'Jest',
+                description: `Jest is a delightful JavaScript Testing Framework with a focus on simplicity. It works 
+                with projects using: Babel, TypeScript, Node, React, Angular, Vue and more!`,
+            },
+            {
+                image: {
                     url: 'images/skills/Git.png',
                     height: 110,
                 },
                 title: 'Git',
                 description: `Git is a free and open source distributed version control system designed to handle 
                 everything from small to very large projects with speed and efficiency.`,
-            },
-            {
-                image: {
-                    url: 'images/skills/typescript.png',
-                    height: 110,
-                },
-                title: 'TypeScript',
-                description: `TypeScript is a strongly typed programming language that builds on JavaScript, giving you 
-                better tooling at any scale.`,
             },
         ],
     },
@@ -312,41 +315,39 @@ Slack.`,
             {
                 href: 'https://t.me/maybebabythink',
                 image: {
-                    url: 'icons/social/telegram.png',
-                    height: 30,
+                    url: 'icons/contacts/telegram.png',
+                    height: 45,
                 },
             },
             {
                 href: 'https://www.linkedin.com/in/mariknowhere/',
                 image: {
-                    url: 'icons/social/linkedin.png',
-                    height: 30,
+                    url: 'icons/contacts/linkedin.png',
+                    height: 45,
                 },
             },
             {
                 href: 'https://github.com/mariknowhere',
                 image: {
-                    url: 'icons/social/github.png',
-                    height: 30,
+                    url: 'icons/contacts/github.png',
+                    height: 45,
                 },
             },
         ],
         form: {
             id: 'form',
-            inputs: [
-                {
-                    name: 'name',
-                    id: 'name',
-                    content: 'Name',
-                    type: 'text'
-                },
-                {
-                    name: 'email',
-                    id: 'email',
-                    content: 'Email',
-                    type: 'email',
-                },
-            ],
+            nameInput: {
+                name: 'name',
+                id: 'name',
+                content: 'Name',
+                type: 'text'
+            },
+            emailInput: {
+                name: 'email',
+                id: 'email',
+                content: 'Email',
+                type: 'email',
+            },
             text: {
                 name: 'text',
                 id: 'text',

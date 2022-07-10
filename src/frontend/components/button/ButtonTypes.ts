@@ -1,5 +1,6 @@
 export enum ButtonTypeEnum {
     Primary = 'primary',
+    Secondary = 'secondary'
 }
 
 export interface IButtonProps {
@@ -7,4 +8,5 @@ export interface IButtonProps {
     className?: string;
     onClick?: () => void;
     type?: ButtonTypeEnum;
+    blockIdToScroll?: string;
 }

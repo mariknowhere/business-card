@@ -23,6 +23,7 @@ const ContactsBlock: FC<IContactsBlockProps> = ({
 }) => {
     const [message, setMessage] = useState('');
     const [nameState, setNameState] = useState('');
+    const [emailState, setEmailState] = useState('');
     const [isEmailSend, setEmailSend] = useState(false);
     const [isButtonClick, setButtonClick] = useState(false);
 
@@ -34,10 +35,20 @@ const ContactsBlock: FC<IContactsBlockProps> = ({
         setNameState(event.target.value);
     };
 
+    const onEmailChange = (event: ChangeEvent<HTMLInputElement>) => {
+        setEmailState(event.target.value);
+    };
+
+    const validateEmail = (email) => {
+        return Boolean(email.split('').filter(letter => letter === `@`).length);
+    }
+
     const onButtonClickHandler = (event) => {
         setButtonClick(true);
 
-        if (message && nameState) {
+        const isEmailSuccessfully = validateEmail(emailState);
+
+        if (message && nameState && emailState && isEmailSuccessfully) {
             setEmailSend(!isEmailSend)
             event.preventDefault();
         }
@@ -61,12 +72,40 @@ const ContactsBlock: FC<IContactsBlockProps> = ({
                 </div>
                 <Text children={subDescription} variant={TextVariantEnum.S} />
                 <form action='#' id={form.id} className={styles['contacts-block-form']} >
-                    {form.inputs.map(({ content, name, id, type }) => (
-                        <div className={styles['contacts-block-input-wrapper']} key={id}>
-                            <input required type={type} id={id} name={name} className={styles['contacts-block-input']} onChange={onNameChange}/>
-                            <label htmlFor={id} className={styles['contacts-block-label']}>{content}</label>
-                        </div>
-                    ))}
+                    <div className={styles['contacts-block-input-wrapper']} key={form.nameInput.id}>
+                        <input
+                            value={nameState}
+                            onChange={onNameChange}
+                            required
+                            type={form.nameInput.type}
+                            id={form.nameInput.id}
+                            name={form.nameInput.name}
+                            className={styles['contacts-block-input']}
+                        />
+                        <label
+                            htmlFor={form.nameInput.id}
+                            className={styles['contacts-block-label']}
+                        >
+                                {form.nameInput.content}
+                        </label>
+                    </div>
+                    <div className={styles['contacts-block-input-wrapper']} key={form.emailInput.id}>
+                        <input
+                            value={emailState}
+                            onChange={onEmailChange}
+                            required
+                            type={form.emailInput.type}
+                            id={form.emailInput.id}
+                            name={form.emailInput.name}
+                            className={styles['contacts-block-input']}
+                        />
+                        <label
+                            htmlFor={form.emailInput.id}
+                            className={styles['contacts-block-label']}
+                        >
+                                {form.emailInput.content}
+                        </label>
+                    </div>
                     <div className={styles['contacts-block-textarea-wrapper']}>
                         <textarea
                             name={form.text.name}
@@ -85,9 +124,19 @@ const ContactsBlock: FC<IContactsBlockProps> = ({
                     {isButtonClick && (
                         <>
                             {isEmailSend ? (
-                                <Text className={styles['contacts-block-email-sent-successfully']} variant={TextVariantEnum.L}>{emailSentSuccessfully}</Text>
+                                <Text
+                                    className={styles['contacts-block-email-sent-successfully']}
+                                    variant={TextVariantEnum.L}
+                                >
+                                        {emailSentSuccessfully}
+                                </Text>
                             ) : (
-                                <Text className={styles['contacts-block-email-sent-unsuccessfully']} variant={TextVariantEnum.M}>{emailSentUnsuccessfully}</Text>
+                                <Text
+                                    className={styles['contacts-block-email-sent-unsuccessfully']}
+                                    variant={TextVariantEnum.M}
+                                >
+                                    {emailSentUnsuccessfully}
+                                </Text>
                             )}
                         </>
                     )}
