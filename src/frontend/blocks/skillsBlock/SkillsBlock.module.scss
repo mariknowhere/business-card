@@ -5,12 +5,12 @@
 .skills-block {
   display: flex;
   flex-direction: column;
-  width: $block-max-width;
-  padding: 48px 0;
+  padding: 48px 24px;
 
   &-topic {
     position: relative;
     z-index: $z-index-component;
+    margin: 0 0 12px 0;
 
     @include orange-circle;
 
@@ -20,9 +20,11 @@
   }
 
   &-cards-wrapper {
-    display: grid;
-    grid-template: repeat(3, 1fr) / repeat(4, 1fr);
-    gap: 16px;
+    display: inherit;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px 20px;
     margin-top: 32px;
   }
 
@@ -43,5 +45,15 @@
 
   &-divider {
     margin: 24px auto 0 auto;
+  }
+}
+
+@media (min-width: $desktop-min-width) {
+  .skills-block {
+    padding: 48px 0;
+
+    &-cards-wrapper {
+      justify-content: normal;
+    }
   }
 }

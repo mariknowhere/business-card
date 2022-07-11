@@ -27,10 +27,7 @@ export const store = {
 
     },
     bannerData: {
-        blockId: 'header',
-        image: {
-            url: `images/header.jpg`,
-        },
+        blockId: 'banner',
         items: [
             {
                 href: '#main',
@@ -125,7 +122,6 @@ export const store = {
         ],
         image: {
             url: 'images/me.jpg',
-            height: 533,
         },
     },
     experienceBlockData: {
@@ -273,7 +269,7 @@ Slack.`,
             {
                 image: {
                     url: 'images/skills/less.png',
-                    height: 102,
+                    height: 80,
                 },
                 title: 'Less',
                 description: `Less (which stands for Leaner Style Sheets) is a backwards-compatible language extension 

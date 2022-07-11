@@ -1,11 +1,25 @@
 @import '../styles/variables';
 
 .page-content {
+  width: 100%;
+  background: url('../../../public/images/background.jpg') repeat;
+}
+
+.blocks-wrapper {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  position: relative;
-  max-width: $desktop-max-width;
+  max-width: 100%;
   margin: 0 auto;
-  background: url('../../../public/images/background.jpg') repeat;
+}
+
+@media (min-width: $tablet-min-width) {
+  .blocks-wrapper {
+    max-width: 750px;
+  }
+}
+
+@media (min-width: $desktop-min-width) {
+  .blocks-wrapper {
+    max-width: $block-max-width;
+  }
 }

@@ -6,16 +6,14 @@
   position: relative;
   width: 100%;
   min-height: 100vh;
-  padding: 20px 0;
   background: url('../../../../public/images/main.jpg') no-repeat 50%/cover;
   z-index: $z-index-component;
 
   &-wrapper {
     position: absolute;
-    width: $block-max-width;
-    margin: 0 auto;
     left: 15%;
-    bottom: 50%;
+    top: 20%;
+    padding-right: 20px;
   }
 
   &-description {
@@ -31,11 +29,23 @@
   }
 
   &-title {
-    margin-bottom: 36px;
+    margin-bottom: 20px;
     color: $color-text-secondary;
   }
 
   &-button {
     margin-right: 30px;
+  }
+}
+
+@media (min-width: $desktop-min-width) {
+  .main-block {
+    &-wrapper {
+      padding-right: 0;
+    }
+
+    &-title {
+      margin-bottom: 30px;
+    }
   }
 }

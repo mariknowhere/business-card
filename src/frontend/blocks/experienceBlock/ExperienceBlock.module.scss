@@ -5,8 +5,7 @@
 .experience-block {
   display: flex;
   flex-direction: column;
-  width: $block-max-width;
-  padding: 48px 0;
+  padding: 48px 24px;
 
   &-topic,
   &-title {
@@ -16,6 +15,7 @@
   &-topic {
     z-index: $z-index-component;
     position: relative;
+    margin: 0 0 12px 0;
 
     @include orange-circle;
 
@@ -31,9 +31,13 @@
 
   &-body {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+    flex-direction: column;
+    justify-content: center;
     padding: 16px 0;
+
+    ul:not(:last-child) {
+      margin-bottom: 30px;
+    }
 
     &-title {
       padding-left: 32px;
@@ -57,7 +61,7 @@
         list-style-type: none;
         position: relative;
         padding-top: 32px;
-        width: 400px;
+        max-width: 400px;
 
         &::before {
           content: '';
@@ -80,6 +84,22 @@
 
       &-header {
         padding-left: 25px;
+      }
+    }
+  }
+}
+
+@media (min-width: $tablet-min-width) {
+  .experience-block {
+    padding: 48px 0;
+
+    &-body {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+
+      ul:not(:last-child) {
+        margin-bottom: 0;
       }
     }
   }

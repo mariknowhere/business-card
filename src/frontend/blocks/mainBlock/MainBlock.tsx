@@ -7,6 +7,8 @@ import Text from "../../components/text/Text";
 import { TextVariantEnum } from "../../components/text/TextTypes";
 import Button from "../../components/button/Button";
 import { ButtonTypeEnum } from "../../components/button/ButtonTypes";
+import {ScreenStates} from "../../constants/ScreenStates";
+import {useResponsive} from "../../hooks/useResponsive";
 
 const MainBlock: FC<IMainBlockProps> = ({
     title,
@@ -17,17 +19,21 @@ const MainBlock: FC<IMainBlockProps> = ({
     secondaryButtonText,
     secondaryBlockIdToScroll,
 }) => {
+    const device = useResponsive();
+
     return (
         <section className={styles['main-block']} id={blockId}>
             <div className={styles['main-block-wrapper']}>
                 <Text children={description} variant={TextVariantEnum.L} className={styles['main-block-description']} />
                 <Title variant={TitleVariantEnum.H1} children={title} className={styles['main-block-title']}/>
                 <Button label={buttonText} blockIdToScroll={blockIdToScroll} className={styles['main-block-button']} />
-                <Button
-                    label={secondaryButtonText}
-                    blockIdToScroll={secondaryBlockIdToScroll}
-                    type={ButtonTypeEnum.Secondary}
-                />
+                {device === ScreenStates.Desktop && (
+                    <Button
+                        label={secondaryButtonText}
+                        blockIdToScroll={secondaryBlockIdToScroll}
+                        type={ButtonTypeEnum.Secondary}
+                    />
+                )}
             </div>
         </section>
     );

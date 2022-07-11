@@ -1,6 +1,30 @@
-.banner {
+@import 'src/frontend/styles/variables';
 
-  &-image {
-    width: 100%;
+.banner {
+  background: url("../../../../public/images/banner.jpg") 50%/cover no-repeat;
+  height: 35px;
+}
+
+@media (min-width: $mobile-min-width) {
+  .banner {
+    height: 45px;
+  }
+}
+
+@media (min-width: $mobile-l-min-width) {
+  .banner {
+    height: 75px;
+  }
+}
+
+@media (min-width: $tablet-min-width) {
+  .banner {
+    height: 130px;
+  }
+}
+
+@media (min-width: $desktop-min-width) {
+  .banner-image {
+    height: 150px;
   }
 }

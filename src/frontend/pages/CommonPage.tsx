@@ -25,10 +25,12 @@ const CommonPage: FC = () => {
       <Aside {...asideData} />
       <Banner {...bannerData} />
       <MainBlock {...mainBlockData} />
-      <AboutBlock {...aboutBlockData} />
-      <ExperienceBlock {...experienceBlockData} />
-      <SkillsBlock {...skillsBlockData} />
-      <ContactsBlock {...contactsBlockData} />
+        <div className={styles['blocks-wrapper']}>
+           <AboutBlock {...aboutBlockData} />
+           <ExperienceBlock {...experienceBlockData} />
+           <SkillsBlock {...skillsBlockData} />
+           <ContactsBlock {...contactsBlockData} />
+        </div>
     </div>
   );
 };

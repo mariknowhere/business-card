@@ -10,7 +10,9 @@ import Header from "../../components/header/Header";
 const AboutBlock: FC<IAboutBlockProps> = ({ title, description, image, topic, cards, blockId }) => {
     return (
         <section className={styles['about-block']} id={blockId}>
-            <Image url={image.url} width={image.width} height={image.height} className={styles['about-block-image']} />
+            <div className={styles['about-block-image-wrapper']}>
+                <Image url={image.url} width={image.width} height={image.height} className={styles['about-block-image']} />
+            </div>
             <div className={styles['about-block-content']}>
                 <Header topicText={topic} titleText={title} classNameTopic={styles['about-block-topic']}
                         classNameTitle={styles['about-block-title']} classNameDivider={styles['about-block-divider']} />

@@ -7,6 +7,8 @@ import Image from "../../components/image/Image";
 import styles from './ContactsBlock.module.scss';
 import Button from "../../components/button/Button";
 import Social from "../../components/social/Social";
+import {ScreenStates} from "../../constants/ScreenStates";
+import {useResponsive} from "../../hooks/useResponsive";
 
 const ContactsBlock: FC<IContactsBlockProps> = ({
     title,
@@ -21,6 +23,8 @@ const ContactsBlock: FC<IContactsBlockProps> = ({
     emailSentSuccessfully,
     emailSentUnsuccessfully,
 }) => {
+    const device = useResponsive();
+
     const [message, setMessage] = useState('');
     const [nameState, setNameState] = useState('');
     const [emailState, setEmailState] = useState('');
@@ -56,8 +60,8 @@ const ContactsBlock: FC<IContactsBlockProps> = ({
 
     return (
         <section className={styles['contacts-block']} id={blockId}>
-            <Image {...image} />
-            <div>
+            {device === ScreenStates.Desktop && <Image {...image} />}
+            <div className={styles['contacts-block-content']}>
                 <Header topicText={topic} titleText={title} classNameTitle={styles['contacts-block-header-title']}
                         classNameTopic={styles['contacts-block-header-topic']} />
                 <Text
@@ -72,39 +76,41 @@ const ContactsBlock: FC<IContactsBlockProps> = ({
                 </div>
                 <Text children={subDescription} variant={TextVariantEnum.S} />
                 <form action='#' id={form.id} className={styles['contacts-block-form']} >
-                    <div className={styles['contacts-block-input-wrapper']} key={form.nameInput.id}>
-                        <input
-                            value={nameState}
-                            onChange={onNameChange}
-                            required
-                            type={form.nameInput.type}
-                            id={form.nameInput.id}
-                            name={form.nameInput.name}
-                            className={styles['contacts-block-input']}
-                        />
-                        <label
-                            htmlFor={form.nameInput.id}
-                            className={styles['contacts-block-label']}
-                        >
+                    <div className={styles['contacts-block-inputs']}>
+                        <div className={styles['contacts-block-input-wrapper']} key={form.nameInput.id}>
+                            <input
+                                value={nameState}
+                                onChange={onNameChange}
+                                required
+                                type={form.nameInput.type}
+                                id={form.nameInput.id}
+                                name={form.nameInput.name}
+                                className={styles['contacts-block-input']}
+                            />
+                            <label
+                                htmlFor={form.nameInput.id}
+                                className={styles['contacts-block-label']}
+                            >
                                 {form.nameInput.content}
-                        </label>
-                    </div>
-                    <div className={styles['contacts-block-input-wrapper']} key={form.emailInput.id}>
-                        <input
-                            value={emailState}
-                            onChange={onEmailChange}
-                            required
-                            type={form.emailInput.type}
-                            id={form.emailInput.id}
-                            name={form.emailInput.name}
-                            className={styles['contacts-block-input']}
-                        />
-                        <label
-                            htmlFor={form.emailInput.id}
-                            className={styles['contacts-block-label']}
-                        >
+                            </label>
+                        </div>
+                        <div className={styles['contacts-block-input-wrapper']} key={form.emailInput.id}>
+                            <input
+                                value={emailState}
+                                onChange={onEmailChange}
+                                required
+                                type={form.emailInput.type}
+                                id={form.emailInput.id}
+                                name={form.emailInput.name}
+                                className={styles['contacts-block-input']}
+                            />
+                            <label
+                                htmlFor={form.emailInput.id}
+                                className={styles['contacts-block-label']}
+                            >
                                 {form.emailInput.content}
-                        </label>
+                            </label>
+                        </div>
                     </div>
                     <div className={styles['contacts-block-textarea-wrapper']}>
                         <textarea

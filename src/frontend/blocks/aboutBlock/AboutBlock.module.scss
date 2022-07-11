@@ -4,17 +4,31 @@
 
 .about-block {
   display: flex;
-  flex-direction: row;
-  width: $block-max-width;
+  flex-direction: column;
   padding: 96px 0 48px;
   z-index: $z-index-component;
 
+  &-image {
+    height: auto;
+    width: 100%;
+    max-width: 500px;
+    min-height: auto;
+
+    &-wrapper {
+      display: inherit;
+      justify-content: center;
+      padding: 0 30px
+    }
+  }
+
   &-content {
-    padding: 16px 32px;
+    padding: 0 32px;
   }
 
   &-topic {
     position: relative;
+    z-index: $z-index-component;
+    margin: 30px 0 20px 0;
 
     @include orange-circle;
 
@@ -28,13 +42,13 @@
   }
 
   &-description {
-    margin: 12px 0;
+    margin: 20px 0;
   }
 
   &-cards-wrapper {
     display: flex;
-    gap: 30px 20px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 25px;
   }
 
   &-card {
@@ -42,7 +56,6 @@
     flex-direction: row;
     position: relative;
     z-index: $z-index-component;
-    width: 200px;
 
     &-header {
       padding: 12px 10px 0 10px;
@@ -53,6 +66,31 @@
         left: 0;
         top: 0;
       }
+    }
+  }
+}
+
+@media (min-width: $tablet-min-width) {
+  .about-block {
+    &-cards-wrapper {
+      flex-direction: row;
+      gap: 30px 20px;
+      flex-wrap: wrap;
+    }
+  }
+}
+
+@media (min-width: $desktop-min-width) {
+  .about-block {
+    flex-direction: row;
+
+    &-image {
+      min-width: 480px;
+      max-height: 533px;
+    }
+
+    &-topic {
+      margin: 0 0 12px 0;
     }
   }
 }

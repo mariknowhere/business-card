@@ -18,15 +18,18 @@
     position: absolute;
     width: 100vw;
     height: 100vh;
-    left: 22%;
     backdrop-filter: blur(2px);
+
+    &-open {
+      left: 250px;
+    }
   }
 
   &-content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 22%;
+    width: 250px;
     height: 100%;
     background-color: $color-orange;
   }
@@ -41,7 +44,7 @@
 
   &-items {
     align-self: baseline;
-    padding-left: 60px;
+    padding: 30px 0 0 60px;
     flex: 1 1 auto;
   }
 
@@ -84,5 +87,29 @@
 
   &-social:not(:last-child) {
     margin-right: 25px;
+  }
+}
+
+@media (min-width: $tablet-min-width) {
+  .menu {
+    &-overlay {
+      left: 30%;
+    }
+
+    &-content {
+      width: 30%;
+    }
+  }
+}
+
+@media (min-width: $desktop-min-width) {
+  .menu {
+    &-overlay {
+      left: 25%;
+    }
+
+    &-content {
+      width: 25%;
+    }
   }
 }
