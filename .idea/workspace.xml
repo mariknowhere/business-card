@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-15: Added language selection, useLanguage and useResponsiveAside, Select component">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/banner/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/banner/Banner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/banner/BannerTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/banner/BannerTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenuTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenuTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/store/index.ts" afterDir="false" />
-    </list>
+    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-16: Fixed HamburgerMenu display and added Up image in aside on desktop" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -164,7 +156,7 @@
       <workItem from="1657634171746" duration="818000" />
       <workItem from="1657635033442" duration="13062000" />
       <workItem from="1657667337976" duration="6472000" />
-      <workItem from="1657714218664" duration="2497000" />
+      <workItem from="1657714218664" duration="3276000" />
     </task>
     <task id="LOCAL-00001" summary="Add(Button,Title,Text,MainBlock): Added Button, Title, Text, MainBlock (constants: sizes, textMixins, variables, colors)">
       <created>1651675209372</created>
@@ -257,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657675063334</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="C-16: Fixed HamburgerMenu display and added Up image in aside on desktop">
+      <created>1657716887540</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1657716887540</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +300,7 @@
     <MESSAGE value="C-11: Added useDebounce and useResponsive, fixed colors and all blocks" />
     <MESSAGE value="C-12: Added all icons, upgrade readme.md and store, fixed contactsBlock and create SecondaryButton" />
     <MESSAGE value="C-15: Added language selection, useLanguage and useResponsiveAside, Select component" />
-    <option name="LAST_COMMIT_MESSAGE" value="C-15: Added language selection, useLanguage and useResponsiveAside, Select component" />
+    <MESSAGE value="C-16: Fixed HamburgerMenu display and added Up image in aside on desktop" />
+    <option name="LAST_COMMIT_MESSAGE" value="C-16: Fixed HamburgerMenu display and added Up image in aside on desktop" />
   </component>
 </project>
