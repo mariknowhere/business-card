@@ -9,16 +9,22 @@
   background: url('../../../../public/images/main.jpg') no-repeat 50%/cover;
   z-index: $z-index-component;
 
+  &-select {
+    position: absolute;
+    top: 15px;
+    right: 16px;
+  }
+
   &-wrapper {
     position: absolute;
     left: 15%;
-    top: 20%;
+    top: 25%;
     padding-right: 20px;
   }
 
   &-description {
     margin-bottom: 12px;
-    color: $color-text-secondary !important;
+    color: $color-white !important;
 
     @include orange-circle;
 
@@ -30,7 +36,7 @@
 
   &-title {
     margin-bottom: 20px;
-    color: $color-text-secondary;
+    color: $color-white;
   }
 
   &-button {

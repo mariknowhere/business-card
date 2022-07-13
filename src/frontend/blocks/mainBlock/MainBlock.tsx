@@ -9,6 +9,7 @@ import Button from "../../components/button/Button";
 import { ButtonTypeEnum } from "../../components/button/ButtonTypes";
 import {ScreenStates} from "../../constants/ScreenStates";
 import {useResponsive} from "../../hooks/useResponsive";
+import Select from "../../components/select/Select";
 
 const MainBlock: FC<IMainBlockProps> = ({
     title,
@@ -18,11 +19,13 @@ const MainBlock: FC<IMainBlockProps> = ({
     blockIdToScroll,
     secondaryButtonText,
     secondaryBlockIdToScroll,
+    select,
 }) => {
     const device = useResponsive();
 
     return (
         <section className={styles['main-block']} id={blockId}>
+            <Select className={styles['main-block-select']} {...select} />
             <div className={styles['main-block-wrapper']}>
                 <Text children={description} variant={TextVariantEnum.L} className={styles['main-block-description']} />
                 <Title variant={TitleVariantEnum.H1} children={title} className={styles['main-block-title']}/>

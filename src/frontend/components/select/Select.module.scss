@@ -1,0 +1,20 @@
+@import 'src/frontend/styles/colors.scss';
+
+select {
+  appearance: none;
+  background-color: $color-white;
+  padding: 4px 30px 4px 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.select {
+  &-image {
+    position: absolute;
+    top: 20px;
+    right: 21px;
+    cursor: pointer;
+    pointer-events: none;
+    display: block;
+  }
+}

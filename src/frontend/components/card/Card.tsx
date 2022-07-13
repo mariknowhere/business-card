@@ -24,7 +24,7 @@ const Card: FC<ICardProps> = ({
     return (
         <div className={classNames(className, styles['card'])}>
             {image && (
-                <div className={classNames(classNameImageWrapper)}>
+                <div className={classNames(classNameImageWrapper, styles['card-image-wrapper'])}>
                     <Image {...image} className={classNames(classNameImage, styles['card-image'])} />
                 </div>
             )}

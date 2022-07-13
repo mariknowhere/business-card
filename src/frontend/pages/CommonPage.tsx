@@ -6,11 +6,17 @@ import ExperienceBlock from "../blocks/experienceBlock/ExperienceBlock";
 import SkillsBlock from "../blocks/skillsBlock/SkillsBlock";
 import ContactsBlock from "../blocks/contactsBlock/ContactsBlock";
 import Banner from "../blocks/banner/Banner";
-import { store } from '../store';
+import { storeEng, storeRu } from '../store';
 import Aside from "../blocks/aside/Aside";
+import {useLanguage} from "../hooks/useLanguage";
+import { eng } from "../constants/language";
 
 const CommonPage: FC = () => {
-  const {
+    const language = useLanguage()
+
+    const store = language === eng ? storeEng : storeRu;
+
+    const {
     asideData,
     bannerData,
     contactsBlockData,

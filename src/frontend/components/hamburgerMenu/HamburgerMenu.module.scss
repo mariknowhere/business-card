@@ -1,9 +1,10 @@
 @import 'src/frontend/styles/colors';
+@import 'src/frontend/styles/variables';
 
 nav {
   display: flex;
   position: absolute;
-  padding: 20px 32px 0 0;
+  padding: 8px 15px 0 0;
   right: 0;
   top: 0;
 }
@@ -38,5 +39,11 @@ nav {
 
   &::after {
     bottom: 5px;
+  }
+}
+
+@media (min-width: $mobile-l-min-width) {
+  nav {
+    padding: 20px 30px 0 0;
   }
 }

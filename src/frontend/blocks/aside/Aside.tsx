@@ -1,15 +1,15 @@
-import React, {FC} from 'react';
+import React, { FC } from 'react';
 import {IAsideProps} from "./AsideTypes";
 import Social from "../../components/social/Social";
 import Divider from "../../components/divider/Divider";
 import Text from "../../components/text/Text";
 import {TextVariantEnum} from "../../components/text/TextTypes";
 import styles from './Aside.module.scss';
-import {useResponsive} from "../../hooks/useResponsive";
-import {ScreenStates} from "../../constants/ScreenStates";
+import { ScreenStates } from "../../constants/ScreenStates";
+import { useResponsiveAside } from "../../hooks/useResponsiveAside";
 
 const Aside: FC<IAsideProps> = ({ socials, title }) => {
-    const screen = useResponsive();
+    const screen = useResponsiveAside();
 
     if (screen !== ScreenStates.Desktop) {
         return <></>;

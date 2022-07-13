@@ -3,13 +3,13 @@ import styles from './Menu.module.scss';
 import {IMenuProps} from "./MenuTypes";
 import classNames from "classnames";
 import Social from "../../social/Social";
-import CloseIcon from '@mui/icons-material/Close';
 import Title from "../../title/Title";
 import {useResponsive} from "../../../hooks/useResponsive";
 import {ScreenStates} from "../../../constants/ScreenStates";
 import {TitleVariantEnum} from "../../title/TitleTypes";
+import Image from "../../image/Image";
 
-const Menu: FC<IMenuProps> = ({ socials, items, menuActive, setMenuActive }) => {
+const Menu: FC<IMenuProps> = ({ socials, items, menuActive, setMenuActive, image }) => {
     const onMenuClickHandler = () => setMenuActive(!menuActive);
     const device = useResponsive();
 
@@ -17,7 +17,7 @@ const Menu: FC<IMenuProps> = ({ socials, items, menuActive, setMenuActive }) => 
         <div className={classNames(styles['menu'], { [styles['menu-active']]: menuActive })} onClick={onMenuClickHandler} >
             <div className={classNames(styles['menu-overlay'], { [styles['menu-overlay-open']]: menuActive})} />
             <div className={styles['menu-content']} onClick={event => event.stopPropagation()} >
-                <CloseIcon className={styles['menu-close-icon']} onClick={() => setMenuActive(!menuActive)} />
+                <Image {...image} className={styles['menu-close-icon']} onClick={onMenuClickHandler} />
                 <ul className={styles['menu-items']}>
                     {items.map(({ href, content }) => (
                         <li className={styles['menu-item']} key={href+content} onClick={onMenuClickHandler}>

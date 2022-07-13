@@ -1,24 +1,28 @@
 @import 'src/frontend/styles/variables';
 
 .banner {
-  background: url("../../../../public/images/banner.jpg") 50%/cover no-repeat;
-  height: 35px;
+  position: relative;
+
+  &-image {
+    background: url("../../../../public/images/banner.jpg") 50%/cover no-repeat;
+    height: 35px;
+  }
 }
 
 @media (min-width: $mobile-min-width) {
-  .banner {
+  .banner-image {
     height: 45px;
   }
 }
 
 @media (min-width: $mobile-l-min-width) {
-  .banner {
+  .banner-image {
     height: 75px;
   }
 }
 
 @media (min-width: $tablet-min-width) {
-  .banner {
+  .banner-image {
     height: 130px;
   }
 }

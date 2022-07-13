@@ -124,28 +124,30 @@ const ContactsBlock: FC<IContactsBlockProps> = ({
                             {form.text.content}
                         </label>
                     </div>
-                    <div onClick={onButtonClickHandler}>
-                        <Button label={buttonText} />
-                    </div>
-                    {isButtonClick && (
-                        <>
-                            {isEmailSend ? (
-                                <Text
-                                    className={styles['contacts-block-email-sent-successfully']}
-                                    variant={TextVariantEnum.L}
-                                >
+                    <div className={styles['contacts-block-bottom']}>
+                        <div className={styles['contacts-block-button']} onClick={onButtonClickHandler}>
+                            <Button label={buttonText} />
+                        </div>
+                        {isButtonClick && (
+                            <>
+                                {isEmailSend ? (
+                                    <Text
+                                        className={styles['contacts-block-email-sent-successfully']}
+                                        variant={TextVariantEnum.L}
+                                    >
                                         {emailSentSuccessfully}
-                                </Text>
-                            ) : (
-                                <Text
-                                    className={styles['contacts-block-email-sent-unsuccessfully']}
-                                    variant={TextVariantEnum.M}
-                                >
-                                    {emailSentUnsuccessfully}
-                                </Text>
-                            )}
-                        </>
-                    )}
+                                    </Text>
+                                ) : (
+                                    <Text
+                                        className={styles['contacts-block-email-sent-unsuccessfully']}
+                                        variant={TextVariantEnum.M}
+                                    >
+                                        {emailSentUnsuccessfully}
+                                    </Text>
+                                )}
+                            </>
+                        )}
+                    </div>
                 </form>
             </div>
         </section>

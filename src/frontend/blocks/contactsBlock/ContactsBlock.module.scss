@@ -96,12 +96,22 @@
     }
   }
 
+  &-bottom {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &-button {
+    margin-bottom: 8px;
+  }
+
   &-email-sent {
     &-successfully,
     &-unsuccessfully {
       display: flex;
       align-items: center;
       transition: 1s all linear;
+      margin-right: 0;
     }
 
     &-successfully {
@@ -131,6 +141,22 @@
         &::before {
           left: -4px;
         }
+      }
+    }
+
+    &-bottom {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &-button {
+      margin-bottom: 0;
+    }
+
+    &-email-sent {
+      &-successfully,
+      &-unsuccessfully {
+        margin-right: 20px;
       }
     }
   }
