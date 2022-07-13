@@ -98,6 +98,9 @@ export const storeEng = {
             url: 'icons/banner/close.png',
             height: 40,
         },
+        hamburgerMenuImage: {
+            url: 'icons/banner/hamburger_up.png',
+        },
     },
     mainBlockData: {
         blockId: 'main',
@@ -458,7 +461,9 @@ export const storeRu = {
             url: 'icons/banner/close.png',
             height: 40,
         },
-        select: {...selectData},
+        hamburgerMenuImage: {
+            url: 'icons/banner/hamburger_up.png',
+        },
     },
     mainBlockData: {
         blockId: 'main',

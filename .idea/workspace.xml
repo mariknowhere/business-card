@@ -1,35 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-14: Added adaptive layout for mobile phones and tablets">
-      <change afterPath="$PROJECT_DIR$/src/frontend/components/select/Select.module.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/components/select/Select.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/components/select/SelectTypes.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/constants/language.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/hooks/useLanguage.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/frontend/hooks/useResponsiveAside.ts" afterDir="false" />
+    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-15: Added language selection, useLanguage and useResponsiveAside, Select component">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aside/Aside.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aside/Aside.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/banner/Banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/banner/Banner.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/blocks/banner/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/banner/Banner.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlockTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlockTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/skillsBlock/SkillsBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/skillsBlock/SkillsBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/card/Card.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/card/Card.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/card/Card.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/card/Card.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/banner/BannerTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/banner/BannerTypes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/Menu.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/MenuTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/menu/MenuTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/image/Image.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/image/Image.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/components/image/ImageTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/image/ImageTypes.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/pages/CommonPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/pages/CommonPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenuTypes.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenuTypes.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/store/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -185,7 +163,8 @@
       <workItem from="1657456089427" duration="29194000" />
       <workItem from="1657634171746" duration="818000" />
       <workItem from="1657635033442" duration="13062000" />
-      <workItem from="1657667337976" duration="6087000" />
+      <workItem from="1657667337976" duration="6472000" />
+      <workItem from="1657714218664" duration="2497000" />
     </task>
     <task id="LOCAL-00001" summary="Add(Button,Title,Text,MainBlock): Added Button, Title, Text, MainBlock (constants: sizes, textMixins, variables, colors)">
       <created>1651675209372</created>
@@ -271,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657470723051</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="C-15: Added language selection, useLanguage and useResponsiveAside, Select component">
+      <created>1657675063334</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657675063334</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -314,6 +300,7 @@
     <MESSAGE value="C-10: Fixed skills, about and banner block, optimized application and bugs other fixed" />
     <MESSAGE value="C-11: Added useDebounce and useResponsive, fixed colors and all blocks" />
     <MESSAGE value="C-12: Added all icons, upgrade readme.md and store, fixed contactsBlock and create SecondaryButton" />
-    <option name="LAST_COMMIT_MESSAGE" value="C-12: Added all icons, upgrade readme.md and store, fixed contactsBlock and create SecondaryButton" />
+    <MESSAGE value="C-15: Added language selection, useLanguage and useResponsiveAside, Select component" />
+    <option name="LAST_COMMIT_MESSAGE" value="C-15: Added language selection, useLanguage and useResponsiveAside, Select component" />
   </component>
 </project>

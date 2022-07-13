@@ -7,7 +7,7 @@ import styles from './Banner.module.scss';
 const hidden = 'hidden';
 const visible = 'visible';
 
-const Banner: FC<IBannerProps> = ({ items, socials, image }) => {
+const Banner: FC<IBannerProps> = ({ items, socials, image, hamburgerMenuImage }) => {
     const [menuActive, setMenuActive] = useState(false);
 
     useEffect(() => {
@@ -22,7 +22,7 @@ const Banner: FC<IBannerProps> = ({ items, socials, image }) => {
         <header className={styles.banner}>
             <Menu menuActive={menuActive} setMenuActive={setMenuActive} items={items} socials={socials} image={image} />
             <div className={styles['banner-image']} />
-            <HamburgerMenu menuActive={menuActive} setMenuActive={setMenuActive} />
+            <HamburgerMenu menuActive={menuActive} setMenuActive={setMenuActive} image={hamburgerMenuImage} />
         </header>
     );
 };
