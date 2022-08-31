@@ -1,7 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-16: Fixed HamburgerMenu display and added Up image in aside on desktop" />
+    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-17: Added node in package.json">
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/portfolioBlock/PortfolioBlock.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/portfolioBlock/PortfolioBlock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/frontend/blocks/portfolioBlock/PortfolioBlockTypes.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/banner/down.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/banner/down.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/icons/banner/up.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/icons/banner/up.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/me.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/images/me.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/contactsBlock/ContactsBlock.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/mainBlock/MainBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/button/Button.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/button/Button.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/header/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/social/Social.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/social/Social.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/components/social/Social.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/components/social/Social.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/hooks/useLanguage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/hooks/useLanguage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/pages/CommonPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/pages/CommonPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/frontend/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/store/index.ts" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,6 +45,23 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/package.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/public/index.html" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/blocks/banner/Banner.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/blocks/banner/BannerTypes.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/components/button/Button.module.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/components/button/Button.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.module.scss" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenu.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/components/hamburgerMenu/HamburgerMenuTypes.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/hooks/useLanguage.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/hooks/useResponsive.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/hooks/useResponsiveAside.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/pages/CommonPage.tsx" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/store/index.ts" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/frontend/styles/variables.scss" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -39,10 +75,11 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/freelance/KREO PRO&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\projects\\js projects\\area-for-upgrade\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\projects\\js projects\\business-card\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -156,7 +193,33 @@
       <workItem from="1657634171746" duration="818000" />
       <workItem from="1657635033442" duration="13062000" />
       <workItem from="1657667337976" duration="6472000" />
-      <workItem from="1657714218664" duration="3276000" />
+      <workItem from="1657714218664" duration="5810000" />
+      <workItem from="1657806975346" duration="74000" />
+      <workItem from="1657817873083" duration="738000" />
+      <workItem from="1657818631380" duration="6000" />
+      <workItem from="1657819906946" duration="966000" />
+      <workItem from="1657892912732" duration="11000" />
+      <workItem from="1657895855711" duration="2883000" />
+      <workItem from="1657919258324" duration="2329000" />
+      <workItem from="1657977619698" duration="1224000" />
+      <workItem from="1657992702316" duration="140000" />
+      <workItem from="1658852555819" duration="783000" />
+      <workItem from="1659186358303" duration="1933000" />
+      <workItem from="1659189979831" duration="825000" />
+      <workItem from="1659265201810" duration="11000" />
+      <workItem from="1659292554899" duration="11000" />
+      <workItem from="1659349405537" duration="607000" />
+      <workItem from="1659355034683" duration="638000" />
+      <workItem from="1659379691555" duration="9000" />
+      <workItem from="1660224280515" duration="11000" />
+      <workItem from="1660928041231" duration="1347000" />
+      <workItem from="1660957667567" duration="3000" />
+      <workItem from="1661088745908" duration="716000" />
+      <workItem from="1661474723416" duration="113000" />
+      <workItem from="1661561368670" duration="23000" />
+      <workItem from="1661694606925" duration="1501000" />
+      <workItem from="1661895422559" duration="7656000" />
+      <workItem from="1661947492839" duration="595000" />
     </task>
     <task id="LOCAL-00001" summary="Add(Button,Title,Text,MainBlock): Added Button, Title, Text, MainBlock (constants: sizes, textMixins, variables, colors)">
       <created>1651675209372</created>
@@ -256,7 +319,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657716887540</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="C-17: Added node in package.json">
+      <created>1657718856703</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1657718856703</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -301,6 +371,7 @@
     <MESSAGE value="C-12: Added all icons, upgrade readme.md and store, fixed contactsBlock and create SecondaryButton" />
     <MESSAGE value="C-15: Added language selection, useLanguage and useResponsiveAside, Select component" />
     <MESSAGE value="C-16: Fixed HamburgerMenu display and added Up image in aside on desktop" />
-    <option name="LAST_COMMIT_MESSAGE" value="C-16: Fixed HamburgerMenu display and added Up image in aside on desktop" />
+    <MESSAGE value="C-17: Added node in package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="C-17: Added node in package.json" />
   </component>
 </project>

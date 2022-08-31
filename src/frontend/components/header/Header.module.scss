@@ -1,12 +1,15 @@
 @import 'src/frontend/styles/colors';
+@import 'src/frontend/styles/variables';
 
 .header {
   &-topic {
+    text-align: center;
     justify-content: center;
     font-weight: 700;
   }
 
   &-title {
+    text-align: center;
     justify-content: center;
   }
 }

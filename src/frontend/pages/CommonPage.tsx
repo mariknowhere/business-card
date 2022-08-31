@@ -10,6 +10,7 @@ import { storeEng, storeRu } from '../store';
 import Aside from "../blocks/aside/Aside";
 import {useLanguage} from "../hooks/useLanguage";
 import { eng } from "../constants/language";
+import PortfolioBlock from "../blocks/portfolioBlock/PortfolioBlock";
 
 const CommonPage: FC = () => {
     const language = useLanguage()
@@ -23,7 +24,9 @@ const CommonPage: FC = () => {
     experienceBlockData,
     skillsBlockData,
     aboutBlockData,
-    mainBlockData }
+    mainBlockData,
+    portfolioBlockData,
+    }
       = store;
 
   return (
@@ -32,10 +35,11 @@ const CommonPage: FC = () => {
       <Banner {...bannerData} />
       <MainBlock {...mainBlockData} />
         <div className={styles['blocks-wrapper']}>
-           <AboutBlock {...aboutBlockData} />
-           <ExperienceBlock {...experienceBlockData} />
-           <SkillsBlock {...skillsBlockData} />
-           <ContactsBlock {...contactsBlockData} />
+          <AboutBlock {...aboutBlockData} />
+          <ExperienceBlock {...experienceBlockData} />
+          <SkillsBlock {...skillsBlockData} />
+          <PortfolioBlock {...portfolioBlockData} />
+          <ContactsBlock {...contactsBlockData} />
         </div>
     </div>
   );

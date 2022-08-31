@@ -2,7 +2,7 @@ import {useEffect, useState} from "react";
 import {select} from "../constants/language";
 
 export const useLanguage = () => {
-    const [language, setLanguage] = useState('eng');
+    const [language, setLanguage] = useState('ru');
 
     useEffect(() => {
         const selectElement = document.querySelector(select);

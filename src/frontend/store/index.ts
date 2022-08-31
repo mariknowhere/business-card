@@ -1,12 +1,12 @@
 const selectData = {
     options: [
         {
-            value: 'eng',
-            content: 'English',
-        },
-        {
             value: 'ru',
             content: 'Russian',
+        },
+        {
+            value: 'eng',
+            content: 'English',
         },
     ],
     imageDown: {
@@ -65,6 +65,10 @@ export const storeEng = {
             {
                 href: '#skills',
                 content: 'Skills'
+            },
+            {
+                href: '#portfolio',
+                content: 'Portfolio'
             },
             {
                 href: '#contacts',
@@ -323,6 +327,61 @@ export const storeEng = {
             },
         ],
     },
+    portfolioBlockData: {
+        blockId: 'portfolio',
+        topic: 'Portfolio',
+        title: 'Examples of my work',
+        works: [
+            {
+                href: 'https://profolio.dev',
+                image: {
+                    url: 'images/portfolio/profolio.jpg',
+                },
+            },
+            {
+                href: 'https://plastic-clinic.netlify.app/',
+                image: {
+                    url: 'images/portfolio/plastic_clinic.jpg',
+                },
+            },
+            {
+                href: '',
+                image: {
+                    url: 'images/portfolio/abi.jpg',
+                },
+            },
+            {
+                href: '',
+                image: {
+                    url: 'images/portfolio/kreo.jpg',
+                },
+            },
+            {
+                href: 'https://github.com/mariknowhere/currency-exchange',
+                image: {
+                    url: 'images/portfolio/currency_exchange.jpg',
+                },
+            },
+            {
+                href: '',
+                image: {
+                    url: 'images/portfolio/sirpo.jpg',
+                },
+            },
+            {
+                href: '',
+                image: {
+                    url: 'images/portfolio/sirpo_registration.jpg',
+                },
+            },
+            {
+                href: 'https://github.com/mariknowhere/xbanking',
+                image: {
+                    url: 'images/portfolio/xbanking.jpg',
+                },
+            },
+        ],
+    },
     contactsBlockData: {
         blockId: 'contacts',
         topic: 'Contacts',
@@ -430,6 +489,10 @@ export const storeRu = {
                 content: 'Мои навыки'
             },
             {
+                href: '#portfolio',
+                content: 'Проекты'
+            },
+            {
                 href: '#contacts',
                 content: 'Связь со мной'
             },
@@ -479,9 +542,9 @@ export const storeRu = {
         blockId: 'about',
         topic: 'Информация',
         title: 'Меня зовут Марк',
-        description: `Учусь на “инженер-программиста” в Минске, БНТУ.
-        В 2021 г. пройдя курсы, я устроился на работу в Itransition на должность Front-end Web Developer (React). Работаю удалённо,
-        на учёбе бываю очень редко и работе она не мешает. Сейчас в поисках новой компании для дальнейшего развития себя как специалиста.`,
+        description: `Опыт работы полтора года, большой коммерческий опыт (15+ коммерческих проектов). Есть опыт в 
+        общении с заказчиком, опыт командной работы и менторство остальных разработчиков. Вся дополнительная информация
+        ниже.`,
         cards: [
             {
                 image: {
@@ -489,8 +552,11 @@ export const storeRu = {
                     width: 35,
                 },
                 title: 'Что жду от компании?',
-                description: `Главное чтобы были задачи на развитие меня как специалиста. Целеустремленная и слаженная команда. 
-                Возможность удалённой работы.`,
+                description: `Главное чтобы были задачи на развитие меня как специалиста. 
+                Целеустремленная и слаженная команда.
+                Возможность работы в офисе или удаленно.
+                Также готов к перезду в Грузию.
+                `,
             },
             {
                 image: {
@@ -539,7 +605,7 @@ export const storeRu = {
                             width: 26,
                         },
                         title: 'Курсы на работу от Itransition',
-                        topic: 'Минск | (Апрель — Июнь, 2021)',
+                        topic: 'Минск | (Март — Май, 2021)',
                         description: `Выполнял задачи (веб-приложения по типу: игры крестики-нолики, авторизация) и 
                         итоговую курсовую работу на React, TypeScript (JavaScript) и ASP.NET Core. После успешного 
                         прохождения курса меня приняли на работу, где я отработал больше года.`,
@@ -566,12 +632,23 @@ export const storeRu = {
                             width: 26,
                         },
                         title: 'Itransition',
-                        topic: 'Удалённая работа | (Июнь, 2021 — Июль, 2022)',
-                        description: `Более года работал Front-end веб-разработчиком. 
-                        Работал над банковским проектом. Команда была разделена на под-команды, синковались 
-                        каждый день в Slack. Работали по системе Scrum, выполнял задачи на вёрстку и на расширение функционала.
-                        Также ко всему коду применялось unit-тестирование (Jest). При работе пользовались: React/Redux, 
-                        TypeScript/JavaScript, HTML, CSS, SASS/SCSS/LESS, Git.`,
+                        topic: 'Удалённая работа | (Март, 2021 — Июль, 2022)',
+                        description: `Более года работал на банковском проекте. Команда была разделена на под-команды, 
+                        созванивались каждый день в Slack. Работали по системе Scrum, выполнял задачи на вёрстку и на 
+                        расширение функционала. Также ко всему коду применялось unit-тестирование (Jest). При работе 
+                        пользовались: React/Redux, TypeScript/JavaScript, HTML, CSS, SASS/SCSS/LESS, Git.`,
+                    },
+                    {
+                        icon: {
+                            url: 'icons/experience/freelance.png',
+                            width: 26,
+                        },
+                        title: 'Freelance',
+                        topic: 'Удалённая работа | (Май, 2022 — по наст. время)',
+                        description: `Работаю в команде, где присутствует менеджер, разработчики, дизайнеры и 
+                        визуализаторы. Являюсь главным разработчиком и помогаю остальным разработчикам с заказами, 
+                        консультирую их и веду постоянные диалоги с заказчиками за место них. Разработал уже более 10 
+                        проектов.`,
                     },
                     {
                         icon: {
@@ -579,9 +656,10 @@ export const storeRu = {
                             width: 26,
                         },
                         title: 'Profolio',
-                        topic: 'Удалённая работа | (Май, 2022 — по наст. время)',
-                        description: `Работаю всё также Front-end веб-разработчиком. При работе используем: React, 
-                        TypeScript/JavaScript, HTML, CSS, Git.`,
+                        topic: 'Удалённая работа | (Март, 2022 — по наст. время)',
+                        description: `Являюсь одним из разработчиков в команде старт-ап проекта (более 25 человек). 
+                        Провожу онбоардинг новых разработчиков, помогаю им в адаптации и созваниваюсь для помощи в 
+                        задачах.`,
                     },
                 ],
             },
@@ -687,6 +765,61 @@ export const storeRu = {
             },
         ],
     },
+    portfolioBlockData: {
+      blockId: 'portfolio',
+      topic: 'Портфолио',
+      title: 'Примеры моих работ',
+      works: [
+          {
+              href: 'https://profolio.dev',
+              image: {
+                  url: 'images/portfolio/profolio.jpg',
+              },
+          },
+          {
+              href: 'https://plastic-clinic.netlify.app/',
+              image: {
+                  url: 'images/portfolio/plastic_clinic.jpg',
+              },
+          },
+          {
+              href: '',
+              image: {
+                  url: 'images/portfolio/abi.jpg',
+              },
+          },
+          {
+              href: '',
+              image: {
+                  url: 'images/portfolio/kreo.jpg',
+              },
+          },
+          {
+              href: 'https://github.com/mariknowhere/currency-exchange',
+              image: {
+                  url: 'images/portfolio/currency_exchange.jpg',
+              },
+          },
+          {
+              href: '',
+              image: {
+                  url: 'images/portfolio/sirpo.jpg',
+              },
+          },
+          {
+              href: '',
+              image: {
+                  url: 'images/portfolio/sirpo_registration.jpg',
+              },
+          },
+          {
+              href: 'https://github.com/mariknowhere/xbanking',
+              image: {
+                  url: 'images/portfolio/xbanking.jpg',
+              },
+          },
+      ],
+    },
     contactsBlockData: {
         blockId: 'contacts',
         image: {
@@ -732,7 +865,7 @@ export const storeRu = {
             emailInput: {
                 name: 'email',
                 id: 'email',
-                content: 'Электронная почта',
+                content: 'Почта',
                 type: 'email',
             },
             text: {

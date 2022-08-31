@@ -60,7 +60,11 @@ const ContactsBlock: FC<IContactsBlockProps> = ({
 
     return (
         <section className={styles['contacts-block']} id={blockId}>
-            {device === ScreenStates.Desktop && <Image {...image} />}
+            {device === ScreenStates.Desktop && (
+              <div className={styles['contacts-block-image-wrapper']}>
+                  <Image {...image} />
+              </div>
+            )}
             <div className={styles['contacts-block-content']}>
                 <Header topicText={topic} titleText={title} classNameTitle={styles['contacts-block-header-title']}
                         classNameTopic={styles['contacts-block-header-topic']} />

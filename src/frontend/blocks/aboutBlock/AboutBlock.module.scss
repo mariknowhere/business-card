@@ -10,8 +10,7 @@
 
   &-image {
     height: auto;
-    width: 100%;
-    max-width: 500px;
+    max-width: 100%;
     min-height: auto;
 
     &-wrapper {
@@ -42,6 +41,7 @@
   }
 
   &-description {
+    text-align: center;
     margin: 20px 0;
   }
 
@@ -82,6 +82,10 @@
     &-card {
       width: 45%;
     }
+
+    &-description {
+      text-align: left;
+    }
   }
 }
 
@@ -90,7 +94,7 @@
     flex-direction: row;
 
     &-image {
-      min-width: 480px;
+      max-width: 500px;
       max-height: 533px;
     }
 
