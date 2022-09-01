@@ -40,6 +40,10 @@
     justify-content: left !important;
   }
 
+  &-divider {
+    margin: 24px auto 0 auto;
+  }
+
   &-description {
     text-align: center;
     margin: 20px 0;
@@ -77,6 +81,10 @@
     &-cards-wrapper {
       flex-direction: row;
       gap: 30px 20px;
+    }
+
+    &-divider {
+      margin: 16px 0;
     }
 
     &-card {

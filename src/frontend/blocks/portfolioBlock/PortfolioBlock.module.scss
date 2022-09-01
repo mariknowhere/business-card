@@ -32,18 +32,10 @@
 
   &-work {
     border: 5px solid #faebd7;
-    filter: grayscale(60%);
-    transform: scale(1);
-    transition: $animation-duration all linear;
 
     &-image {
       width: 100%;
       max-width: 545px;
-    }
-
-    &:hover {
-      filter: grayscale(0);
-      transform: scale(1.05);
     }
   }
 }
@@ -51,5 +43,22 @@
 @media (min-width: $tablet-min-width) {
   .portfolio-block {
     padding: 64px 0;
+
+    &-work {
+      border: 5px solid #faebd7;
+      filter: grayscale(60%);
+      transform: scale(1);
+      transition: $animation-duration all linear;
+
+      &-image {
+        width: 100%;
+        max-width: 545px;
+      }
+
+      &:hover {
+        filter: grayscale(0);
+        transform: scale(1.05);
+      }
+    }
   }
 }

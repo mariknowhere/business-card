@@ -121,9 +121,9 @@ export const storeEng = {
         topic: 'About me',
         title: 'My name is Mark',
         description: `
-         In 2021, after completing the course, I got a job at Itransition as a Front-end Web Developer (React).
-         I am studying to become a “software engineer” in Minsk, BNTU.
-         I go to university very rarely and it does not interfere with work. Now I'm looking for a new company to work remotely.`,
+         Work experience 1.5 years, extensive commercial experience (15+ commercial projects). There is experience in 
+         communicating with the customer, experience in teamwork and mentoring of other developers. All additional 
+         information below.`,
         cards: [
             {
                 image: {
@@ -132,7 +132,8 @@ export const storeEng = {
                 },
                 title: 'What do I expect from the company?',
                 description: `The main thing is that there are tasks for the development of me as a specialist. 
-                Purposeful and well-coordinated team. Possibility of remote work.`,
+                Purposeful and well-coordinated team. Ability to work in the office or remotely. Also ready to move 
+                to Georgia.`,
             },
             {
                 image: {
@@ -181,7 +182,7 @@ export const storeEng = {
                             width: 26,
                         },
                         title: 'Course to work from Itransition',
-                        topic: 'Minsk | (Apr - June, 2021)',
+                        topic: 'Minsk | (March - May, 2021)',
                         description: `Performed tasks (web applications by type: tic-tac-toe games, authorization) 
                         and final coursework in React, TypeScript (JavaScript) and ASP.NET Core. After successfully 
                         completing the course, I was hired, where I worked for more than 1 year.`,
@@ -207,11 +208,22 @@ export const storeEng = {
                             width: 26,
                         },
                         title: 'Itransition',
-                        topic: 'Remote work | (June, 2021 - July, 2022)',
-                        description: `Worked as a Front-end web developer for over 1 year.
-                         Worked on a banking project. The team was divided into sub-teams, called every day on Slack. We worked according to the Scrum system, performed layout tasks and functional expansion.
-                         Unit testing (Jest) was also applied to all code. We used: React/Redux,
-                         TypeScript/JavaScript, HTML, CSS, SASS/SCSS/LESS, Git.`,
+                        topic: 'Remote work | (March, 2021 - July, 2022)',
+                        description: `Worked on a banking project for over a year. The team was divided into sub-teams, 
+                        called up every day on Slack. We worked according to the Scrum system, performed layout tasks 
+                        and functional expansion. Unit testing (Jest) was also applied to all code. We used: 
+                        React/Redux, TypeScript/JavaScript, HTML, CSS, SASS/SCSS/LESS, Git.`,
+                    },
+                    {
+                        icon: {
+                            url: 'icons/experience/freelance.png',
+                            width: 26,
+                        },
+                        title: 'Freelance',
+                        topic: 'Remote work | (May, 2022 - now)',
+                        description: `I work in a team with a manager, developers, designers and visualizers. I am the 
+                        main developer and I help other developers with orders, advise them and conduct constant 
+                        dialogues with customers for their place. Developed more than 10 projects.`,
                     },
                     {
                         icon: {
@@ -219,9 +231,10 @@ export const storeEng = {
                             width: 26,
                         },
                         title: 'Profolio',
-                        topic: 'Remote work | (May, 2022 - now)',
-                        description: `I also work as a Front-end web developer. At work we use: React,
-                         TypeScript/JavaScript, HTML, CSS, Git.`,
+                        topic: 'Remote work | (March, 2022 - now)',
+                        description: `I am one of the developers in the start-up project team (more than 25 people). 
+                        I conduct onboarding of new developers, help them with adaptation and call up to help with 
+                        tasks.`,
                     },
                 ],
             },
