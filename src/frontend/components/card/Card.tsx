@@ -9,6 +9,7 @@ import classNames from "classnames";
 const Card: FC<ICardProps> = ({
     title,
     description,
+    info,
     icon,
     image,
     className,
@@ -47,6 +48,38 @@ const Card: FC<ICardProps> = ({
                     variant={TextVariantEnum.S}
                     className={classNames(classNameDescription, styles['card-description'])}
                 />
+                {info && (
+                  <Text
+                    children={info.title}
+                    variant={TextVariantEnum.S}
+                    className={styles['card-description']}
+                  />
+                )}
+                {info && (
+                  <Text
+                    children={info.topic}
+                    variant={TextVariantEnum.S}
+                    className={styles['card-description']}
+                  />
+                )}
+                {info && (
+                  <div className={styles['card-info-responsibilities-wrapper']}>
+                    {info.responsibilities.map(({text}) => (
+                      <Text
+                        children={text}
+                        variant={TextVariantEnum.S}
+                        className={styles['card-info-responsibilities']}
+                      />
+                    ))}
+                </div>
+                )}
+                {info && (
+                  <Text
+                    children={info.bottom}
+                    variant={TextVariantEnum.S}
+                    className={styles['card-description']}
+                  />
+                )}
             </div>
         </div>
     );

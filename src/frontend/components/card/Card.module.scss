@@ -27,6 +27,20 @@
     }
   }
 
+  &-info {
+    &-responsibilities {
+      margin: 4px 0 0 10px;
+
+      &:first-child {
+        margin: 0 0 0 10px;
+      }
+
+      &-wrapper {
+        margin: 4px 0;
+      }
+    }
+  }
+
   &-image {
     &-wrapper {
       height: 120px;

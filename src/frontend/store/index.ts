@@ -209,10 +209,40 @@ export const storeEng = {
                         },
                         title: 'Itransition',
                         topic: 'Remote work | (March, 2021 - July, 2022)',
-                        description: `Worked on a banking project for over a year. The team was divided into sub-teams, 
-                        called up every day on Slack. We worked according to the Scrum system, performed layout tasks 
-                        and functional expansion. Unit testing (Jest) was also applied to all code. We used: 
-                        React/Redux, TypeScript/JavaScript, HTML, CSS, SASS/SCSS/LESS, Git.`,
+                        info: {
+                            title: 'Banking project.',
+                            topic: 'My responsibilities:',
+                            responsibilities: [
+                                {
+                                    text: '- Remote and project work in a team.'
+                                },
+                                {
+                                    text: '- Software development according to Agile/Scrum methodology.'
+                                },
+                                {
+                                    text: '- Creation and modification, refinement and optimization of application algorithms on the frontend.'
+                                },
+                                {
+                                    text: '- API integration. Writing logic for receiving, processing, displaying and sending data.'
+                                },
+                                {
+                                    text: '- Design implementation based on Figma layouts.'
+                                },
+                                {
+                                    text: '- Development of unit tests for all new code.'
+                                },
+                                {
+                                    text: '- Conducting code reviews.'
+                                },
+                                {
+                                    text: '- Daily meetings (task planning and reports).'
+                                },
+                                {
+                                    text: '- Evaluation of tasks (hours / story points).'
+                                },
+                            ],
+                            bottom: 'Stack: React/Redux, TypeScript/JavaScript, Jest, HTML, CSS, SASS/SCSS/LESS, Git.',
+                        },
                     },
                     {
                         icon: {
@@ -220,10 +250,31 @@ export const storeEng = {
                             width: 26,
                         },
                         title: 'Freelance',
-                        topic: 'Remote work | (May, 2022 - now)',
-                        description: `I work in a team with a manager, developers, designers and visualizers. I am the 
-                        main developer and I help other developers with orders, advise them and conduct constant 
-                        dialogues with customers for their place. Developed more than 10 projects.`,
+                        topic: 'Remote work | (April, 2022 - now)',
+                        info: {
+                            title: 'I work in a team with a manager, developers, designers and visualizers. I am the head of the development team.',
+                            topic: 'My responsibilities:',
+                            responsibilities: [
+                                {
+                                    text: '- Creation of websites and landing pages from concept to implementation.'
+                                },
+                                {
+                                    text: '- Implementation of complex interactive elements.'
+                                },
+                                {
+                                    text: '- Creation of a house assembler design using an interactive graphic 3D editor.'
+                                },
+                                {
+                                    text: '- Create mobile websites and landing pages optimized for maximum speed.'
+                                },
+                                {
+                                    text: '- Communication with customers personally.'
+                                },
+                                {
+                                    text: '- Assist other developers on the team with project introduction and supervision.'
+                                },
+                            ],
+                        },
                     },
                     {
                         icon: {
@@ -231,10 +282,38 @@ export const storeEng = {
                             width: 26,
                         },
                         title: 'Profolio',
-                        topic: 'Remote work | (March, 2022 - now)',
-                        description: `I am one of the developers in the start-up project team (more than 25 people). 
-                        I conduct onboarding of new developers, help them with adaptation and call up to help with 
-                        tasks.`,
+                        topic: 'Remote work | (Octember, 2021 - now)',
+                        info: {
+                            title: 'I am one of the Front-end developers in the start-up project team (30 people).',
+                            topic: 'My responsibilities:',
+                            responsibilities: [
+                                {
+                                    text: '- Remote and project work in a team.'
+                                },
+                                {
+                                    text: '- Software development according to Agile/Scrum methodology.'
+                                },
+                                {
+                                    text: '- Development of high-quality front-end applications with reusable components.'
+                                },
+                                {
+                                    text: '- Creation of landing pages to promote the product.'
+                                },
+                                {
+                                    text: '- Creation of new blocks and components, additional functions and hooks, etc.'
+                                },
+                                {
+                                    text: '- Cooperation with designers to ensure the efficiency and technical correctness of the design.'
+                                },
+                                {
+                                    text: '- Solving problems in Trello.'
+                                },
+                                {
+                                    text: '- Helping junior developers (onboarding and etc.).'
+                                },
+                            ],
+                            bottom: 'Stack: React, TypeScript, CSS, Git.',
+                        },
                     },
                 ],
             },
@@ -358,39 +437,69 @@ export const storeEng = {
                 },
             },
             {
+                href: 'https://imcotech.ru/cryptobox-1000/',
+                image: {
+                    url: 'images/portfolio/maining.jpg',
+                },
+            },
+            {
+                href: 'https://app.xbanking.org/index.html',
+                image: {
+                    url: 'images/portfolio/xbanking.jpg',
+                },
+            },
+            {
                 href: '',
                 image: {
                     url: 'images/portfolio/abi.jpg',
                 },
             },
             {
-                href: '',
+                href: 'https://kreo.pro/',
                 image: {
                     url: 'images/portfolio/kreo.jpg',
                 },
             },
             {
-                href: 'https://github.com/mariknowhere/currency-exchange',
+                href: 'https://denco.store/fulfillment',
                 image: {
-                    url: 'images/portfolio/currency_exchange.jpg',
+                    url: 'images/portfolio/denco.jpg',
                 },
             },
             {
-                href: '',
+                href: 'https://github.com/mariknowhere/sirpo',
                 image: {
                     url: 'images/portfolio/sirpo.jpg',
                 },
             },
             {
-                href: '',
+                href: 'http://obmen.uno/',
                 image: {
-                    url: 'images/portfolio/sirpo_registration.jpg',
+                    url: 'images/portfolio/currency_exchange.jpg',
                 },
             },
             {
-                href: 'https://github.com/mariknowhere/xbanking',
+                href: 'http://partyquiz.club/',
                 image: {
-                    url: 'images/portfolio/xbanking.jpg',
+                    url: 'images/portfolio/party-quiz.jpg',
+                },
+            },
+            {
+                href: '#',
+                image: {
+                    url: 'images/portfolio/viking.jpg',
+                },
+            },
+            {
+                href: 'https://conomica.ru/',
+                image: {
+                    url: 'images/portfolio/conomica.jpg',
+                },
+            },
+            {
+                href: '#',
+                image: {
+                    url: 'images/portfolio/fitness.jpg',
                 },
             },
         ],
@@ -646,10 +755,42 @@ export const storeRu = {
                         },
                         title: 'Itransition',
                         topic: 'Удалённая работа | (Март, 2021 — Июль, 2022)',
-                        description: `Более года работал на банковском проекте. Команда была разделена на под-команды, 
-                        созванивались каждый день в Slack. Работали по системе Scrum, выполнял задачи на вёрстку и на 
-                        расширение функционала. Также ко всему коду применялось unit-тестирование (Jest). При работе 
-                        пользовались: React/Redux, TypeScript/JavaScript, HTML, CSS, SASS/SCSS/LESS, Git.`,
+                        info: {
+                            title: 'Банковский проект.',
+                            topic: 'Мои рабочие обязанности:',
+                            responsibilities: [
+                                {
+                                    text: '- Удаленная и проектная работа в команде.'
+                                },
+                                {
+                                    text: '- Разработка программного обеспечения по методологии Agile/Scrum.'
+                                },
+                                {
+                                    text: '- Создание и изменение, доработка и оптимизация алгоритмов работы приложения ' +
+                                      'на фронтенде.'
+                                },
+                                {
+                                    text: '- Интеграция с API. Написание логики приема, обработки, отображения и отправки данных.'
+                                },
+                                {
+                                    text: '- Реализация дизайна на основе макетов Figma.'
+                                },
+                                {
+                                    text: '- Разработка unit-тестов для всего нового кода.'
+                                },
+                                {
+                                    text: '- Проведение код-ревью.'
+                                },
+                                {
+                                    text: '- Ежедневные встречи (планирование задач и отчеты).'
+                                },
+                                {
+                                    text: '- Оценка задач (часы/стори-баллы).'
+                                },
+                            ],
+                            bottom: 'Используемые технологии: React/Redux, TypeScript/JavaScript, Jest, HTML, CSS, ' +
+                              'SASS/SCSS/LESS, Git.',
+                        },
                     },
                     {
                         icon: {
@@ -657,11 +798,31 @@ export const storeRu = {
                             width: 26,
                         },
                         title: 'Freelance',
-                        topic: 'Удалённая работа | (Май, 2022 — по наст. время)',
-                        description: `Работаю в команде, где присутствует менеджер, разработчики, дизайнеры и 
-                        визуализаторы. Являюсь главным разработчиком и помогаю остальным разработчикам с заказами, 
-                        консультирую их и веду постоянные диалоги с заказчиками за место них. Разработал уже более 10 
-                        проектов.`,
+                        topic: 'Удалённая работа | (Апрель, 2022 — по наст. время)',
+                        info: {
+                            title: 'Работаю в команде, где присутствует менеджер, разработчики, дизайнеры и визуализаторы. Являюсь главным в команде разработчиков.',
+                            topic: 'Мои рабочие обязанности:',
+                            responsibilities: [
+                                {
+                                    text: '- Создание веб-сайтов и целевых страниц от концепции до реализации.'
+                                },
+                                {
+                                    text: '- Реализация сложных интерактивных элементов.'
+                                },
+                                {
+                                    text: '- Создание дизайна конструктора сборщика дома при помощи интерактивного графического 3D редактора.'
+                                },
+                                {
+                                    text: '- Создание мобильных веб-сайтов и целевых страниц, оптимизированных для максимальной скорости.'
+                                },
+                                {
+                                    text: '- Общение с заказчиками лично.'
+                                },
+                                {
+                                    text: '- Помощь остальным разработчикам в команде при введении проекта и курирование их.'
+                                },
+                            ],
+                        },
                     },
                     {
                         icon: {
@@ -669,10 +830,38 @@ export const storeRu = {
                             width: 26,
                         },
                         title: 'Profolio',
-                        topic: 'Удалённая работа | (Март, 2022 — по наст. время)',
-                        description: `Являюсь одним из разработчиков в команде старт-ап проекта (более 25 человек). 
-                        Провожу онбоардинг новых разработчиков, помогаю им в адаптации и созваниваюсь для помощи в 
-                        задачах.`,
+                        topic: 'Удалённая работа | (Октябрь, 2021 — по наст. время)',
+                        info: {
+                            title: 'Являюсь одним из Front-end разработчиков в команде старт-ап проекта (30 человек).',
+                            topic: 'Мои рабочие обязанности:',
+                            responsibilities: [
+                                {
+                                    text: '- Удаленная и проектная работа в команде.'
+                                },
+                                {
+                                    text: '- Разработка программного обеспечения по методологии Agile/Scrum.'
+                                },
+                                {
+                                    text: '- Разработка высококачественных интерфейсных приложений с многократно используемыми компонентами.'
+                                },
+                                {
+                                    text: '- Создание целевых страниц для продвижения продукта.'
+                                },
+                                {
+                                    text: '- Создание новых блоков и компонентов, дополнительных функций и хуков и т.д.'
+                                },
+                                {
+                                    text: '- Сотрудничество с дизайнерами для обеспечения эффективности и технической правильности дизайна.'
+                                },
+                                {
+                                    text: '- Решение задач в Trello.'
+                                },
+                                {
+                                    text: '- Помощь младшим разработчикам (onboarding and etc.).'
+                                },
+                            ],
+                            bottom: 'Используемые технологии: React, TypeScript, CSS, Git.',
+                        },
                     },
                 ],
             },
@@ -796,39 +985,69 @@ export const storeRu = {
               },
           },
           {
+              href: 'https://imcotech.ru/cryptobox-1000/',
+              image: {
+                  url: 'images/portfolio/maining.jpg',
+              },
+          },
+          {
+              href: 'https://app.xbanking.org/index.html',
+              image: {
+                  url: 'images/portfolio/xbanking.jpg',
+              },
+          },
+          {
               href: '',
               image: {
                   url: 'images/portfolio/abi.jpg',
               },
           },
           {
-              href: '',
+              href: 'https://kreo.pro/',
               image: {
                   url: 'images/portfolio/kreo.jpg',
               },
           },
           {
-              href: 'https://github.com/mariknowhere/currency-exchange',
+              href: 'https://denco.store/fulfillment',
               image: {
-                  url: 'images/portfolio/currency_exchange.jpg',
+                  url: 'images/portfolio/denco.jpg',
               },
           },
           {
-              href: '',
+              href: 'https://github.com/mariknowhere/sirpo',
               image: {
                   url: 'images/portfolio/sirpo.jpg',
               },
           },
           {
-              href: '',
+              href: 'http://obmen.uno/',
               image: {
-                  url: 'images/portfolio/sirpo_registration.jpg',
+                  url: 'images/portfolio/currency_exchange.jpg',
               },
           },
           {
-              href: 'https://github.com/mariknowhere/xbanking',
+              href: 'http://partyquiz.club/',
               image: {
-                  url: 'images/portfolio/xbanking.jpg',
+                  url: 'images/portfolio/party-quiz.jpg',
+              },
+          },
+          {
+              href: '#',
+              image: {
+                  url: 'images/portfolio/viking.jpg',
+              },
+          },
+          {
+              href: 'https://conomica.ru/',
+              image: {
+                  url: 'images/portfolio/conomica.jpg',
+              },
+          },
+          {
+              href: '#',
+              image: {
+                  url: 'images/portfolio/fitness.jpg',
               },
           },
       ],
