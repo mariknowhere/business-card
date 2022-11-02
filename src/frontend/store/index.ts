@@ -121,7 +121,7 @@ export const storeEng = {
         topic: 'About me',
         title: 'My name is Mark',
         description: `
-         Work experience 1.5 years, extensive commercial experience (15+ commercial projects). There is experience in 
+         Work experience 3 years, extensive commercial experience (10+ commercial projects). There is experience in 
          communicating with the customer, experience in teamwork and mentoring of other developers. All additional 
          information below.`,
         cards: [
@@ -204,76 +204,67 @@ export const storeEng = {
                 items: [
                     {
                         icon: {
-                            url: 'icons/experience/it_work.png',
-                            width: 26,
-                        },
-                        title: 'Itransition',
-                        topic: 'Remote work | (March, 2021 - July, 2022)',
-                        info: {
-                            title: 'Banking project.',
-                            topic: 'My responsibilities:',
-                            responsibilities: [
-                                {
-                                    text: '- Remote and project work in a team.'
-                                },
-                                {
-                                    text: '- Software development according to Agile/Scrum methodology.'
-                                },
-                                {
-                                    text: '- Creation and modification, refinement and optimization of application algorithms on the frontend.'
-                                },
-                                {
-                                    text: '- API integration. Writing logic for receiving, processing, displaying and sending data.'
-                                },
-                                {
-                                    text: '- Design implementation based on Figma layouts.'
-                                },
-                                {
-                                    text: '- Development of unit tests for all new code.'
-                                },
-                                {
-                                    text: '- Conducting code reviews.'
-                                },
-                                {
-                                    text: '- Daily meetings (task planning and reports).'
-                                },
-                                {
-                                    text: '- Evaluation of tasks (hours / story points).'
-                                },
-                            ],
-                            bottom: 'Stack: React/Redux, TypeScript/JavaScript, Jest, HTML, CSS, SASS/SCSS/LESS, Git.',
-                        },
-                    },
-                    {
-                        icon: {
                             url: 'icons/experience/freelance.png',
                             width: 26,
                         },
                         title: 'Freelance',
-                        topic: 'Remote work | (April, 2022 - now)',
+                        topic: 'Remote work | (May, 2022 - now)',
                         info: {
                             title: 'I work in a team with a manager, developers, designers and visualizers. I am the head of the development team.',
                             topic: 'My responsibilities:',
                             responsibilities: [
                                 {
-                                    text: '- Creation of websites and landing pages from concept to implementation.'
+                                    text: '- Creating 10 websites from concept to implementation.'
                                 },
                                 {
-                                    text: '- Implementation of complex interactive elements.'
+                                    text: '- Create the constructor of the collector of the house with the help of an interactive graphic 3D editor.'
                                 },
                                 {
-                                    text: '- Creation of a house assembler design using an interactive graphic 3D editor.'
+                                    text: '- Optimized 5 mobile sites for 20% maximum speed.'
                                 },
                                 {
-                                    text: '- Create mobile websites and landing pages optimized for maximum speed.'
+                                    text: '- Communication with 10 customers.'
                                 },
                                 {
-                                    text: '- Communication with customers personally.'
-                                },
-                                {
-                                    text: '- Assist other developers on the team with project introduction and supervision.'
+                                    text: '- Help 3 developers in their projects.'
                                 },
                             ],
+                        },
+                    },
+                    {
+                        icon: {
+                            url: 'icons/experience/it_work.png',
+                            width: 26,
+                        },
+                        title: 'Itransition',
+                        topic: 'Remote work | (February, 2021 - July, 2022)',
+                        info: {
+                            title: 'Banking project.',
+                            topic: 'My responsibilities:',
+                            responsibilities: [
+                                {
+                                    text: '- Remote and project work in the Agile/Scrum team.'
+                                },
+                                {
+                                    text: '- Daily meetings and task evaluation (planning and reports)'
+                                },
+                                {
+                                    text: '- Create and modify, modify and optimize application algorithms.'
+                                },
+                                {
+                                    text: '- Integration with the API. Writing the logic of receiving, processing, displaying and sending data.'
+                                },
+                                {
+                                    text: '- Implementation of design based on Figma layouts.'
+                                },
+                                {
+                                    text: '- Development of unit tests for 100% new code.'
+                                },
+                                {
+                                    text: '- Review code for each member of the sub-team (10 people).'
+                                },
+                            ],
+                            bottom: 'Stack: React/Redux, TypeScript/JavaScript, Jest, HTML, CSS, SASS/SCSS/LESS, Git.',
                         },
                     },
                     {
@@ -282,34 +273,22 @@ export const storeEng = {
                             width: 26,
                         },
                         title: 'Profolio',
-                        topic: 'Remote work | (Octember, 2021 - now)',
+                        topic: 'Remote work | (March, 2020 - February, 2021)',
                         info: {
                             title: 'I am one of the Front-end developers in the start-up project team (30 people).',
                             topic: 'My responsibilities:',
                             responsibilities: [
                                 {
-                                    text: '- Remote and project work in a team.'
+                                    text: '- Development and support of application with reusable components.'
                                 },
                                 {
-                                    text: '- Software development according to Agile/Scrum methodology.'
+                                    text: '- Implementation of architectural solutions (presentation and discussion with the team).'
                                 },
                                 {
-                                    text: '- Development of high-quality front-end applications with reusable components.'
+                                    text: '- Collaboration with 3 designers to ensure efficiency and technical correctness of design.'
                                 },
                                 {
-                                    text: '- Creation of landing pages to promote the product.'
-                                },
-                                {
-                                    text: '- Creation of new blocks and components, additional functions and hooks, etc.'
-                                },
-                                {
-                                    text: '- Cooperation with designers to ensure the efficiency and technical correctness of the design.'
-                                },
-                                {
-                                    text: '- Solving problems in Trello.'
-                                },
-                                {
-                                    text: '- Helping junior developers (onboarding and etc.).'
+                                    text: '- Help for 7 junior developers (onboarding and etc.).'
                                 },
                             ],
                             bottom: 'Stack: React, TypeScript, CSS, Git.',
@@ -664,7 +643,7 @@ export const storeRu = {
         blockId: 'about',
         topic: 'Информация',
         title: 'Меня зовут Марк',
-        description: `Опыт работы полтора года, большой коммерческий опыт (15+ коммерческих проектов). Есть опыт в 
+        description: `Опыт работы 3 года, большой коммерческий опыт (10+ коммерческих проектов). Есть опыт в 
         общении с заказчиком, опыт командной работы и менторство остальных разработчиков. Вся дополнительная информация
         ниже.`,
         cards: [
@@ -750,11 +729,43 @@ export const storeRu = {
                 items: [
                     {
                         icon: {
+                            url: 'icons/experience/freelance.png',
+                            width: 26,
+                        },
+                        title: 'Freelance',
+                        topic: 'Удалённая работа | (Май, 2022 — по наст. время)',
+                        info: {
+                            title: 'Работаю в команде, где присутствует менеджер, разработчики, дизайнеры и визуализаторы. Являюсь главным в команде разработчиков.',
+                            topic: 'Мои рабочие обязанности:',
+                            responsibilities: [
+                                {
+                                    text: '- Создание веб-сайтов и целевых страниц от концепции до реализации.'
+                                },
+                                {
+                                    text: '- Реализация сложных интерактивных элементов.'
+                                },
+                                {
+                                    text: '- Создание дизайна конструктора сборщика дома при помощи интерактивного графического 3D редактора.'
+                                },
+                                {
+                                    text: '- Создание мобильных веб-сайтов и целевых страниц, оптимизированных для максимальной скорости.'
+                                },
+                                {
+                                    text: '- Общение с заказчиками лично.'
+                                },
+                                {
+                                    text: '- Помощь остальным разработчикам в команде при введении проекта и курирование их.'
+                                },
+                            ],
+                        },
+                    },
+                    {
+                        icon: {
                             url: 'icons/experience/it_work.png',
                             width: 26,
                         },
                         title: 'Itransition',
-                        topic: 'Удалённая работа | (Март, 2021 — Июль, 2022)',
+                        topic: 'Удалённая работа | (Февраль, 2021 — Июль, 2022)',
                         info: {
                             title: 'Банковский проект.',
                             topic: 'Мои рабочие обязанности:',
@@ -794,43 +805,11 @@ export const storeRu = {
                     },
                     {
                         icon: {
-                            url: 'icons/experience/freelance.png',
-                            width: 26,
-                        },
-                        title: 'Freelance',
-                        topic: 'Удалённая работа | (Апрель, 2022 — по наст. время)',
-                        info: {
-                            title: 'Работаю в команде, где присутствует менеджер, разработчики, дизайнеры и визуализаторы. Являюсь главным в команде разработчиков.',
-                            topic: 'Мои рабочие обязанности:',
-                            responsibilities: [
-                                {
-                                    text: '- Создание веб-сайтов и целевых страниц от концепции до реализации.'
-                                },
-                                {
-                                    text: '- Реализация сложных интерактивных элементов.'
-                                },
-                                {
-                                    text: '- Создание дизайна конструктора сборщика дома при помощи интерактивного графического 3D редактора.'
-                                },
-                                {
-                                    text: '- Создание мобильных веб-сайтов и целевых страниц, оптимизированных для максимальной скорости.'
-                                },
-                                {
-                                    text: '- Общение с заказчиками лично.'
-                                },
-                                {
-                                    text: '- Помощь остальным разработчикам в команде при введении проекта и курирование их.'
-                                },
-                            ],
-                        },
-                    },
-                    {
-                        icon: {
                             url: 'icons/experience/profolio.png',
                             width: 26,
                         },
                         title: 'Profolio',
-                        topic: 'Удалённая работа | (Октябрь, 2021 — по наст. время)',
+                        topic: 'Удалённая работа | (Март, 2020 — Февраль, 2021)',
                         info: {
                             title: 'Являюсь одним из Front-end разработчиков в команде старт-ап проекта (30 человек).',
                             topic: 'Мои рабочие обязанности:',

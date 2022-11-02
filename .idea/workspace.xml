@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-18: Added PortfolioBlock and another bugs fixed">
+    <list default="true" id="e96179c2-766b-4b6a-a8c9-a7b82f3c6540" name="Default Changelist" comment="C-20: Added projects in portfolio and little bugs fixed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/aboutBlock/AboutBlock.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/frontend/blocks/portfolioBlock/PortfolioBlock.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/blocks/portfolioBlock/PortfolioBlock.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/frontend/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/frontend/store/index.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +60,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/freelance/KREO PRO&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/freelance/mailing-list&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
@@ -207,6 +206,15 @@
       <workItem from="1661895422559" duration="7656000" />
       <workItem from="1661947492839" duration="4537000" />
       <workItem from="1661974867502" duration="48000" />
+      <workItem from="1662038014461" duration="701000" />
+      <workItem from="1662337523011" duration="200000" />
+      <workItem from="1662382014881" duration="610000" />
+      <workItem from="1663104252310" duration="2128000" />
+      <workItem from="1663153658919" duration="4631000" />
+      <workItem from="1667263584838" duration="543000" />
+      <workItem from="1667301344759" duration="37000" />
+      <workItem from="1667304160901" duration="609000" />
+      <workItem from="1667413900684" duration="920000" />
     </task>
     <task id="LOCAL-00001" summary="Add(Button,Title,Text,MainBlock): Added Button, Title, Text, MainBlock (constants: sizes, textMixins, variables, colors)">
       <created>1651675209372</created>
@@ -320,7 +328,21 @@
       <option name="project" value="LOCAL" />
       <updated>1661956407618</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="C-19: Bugs fixed">
+      <created>1662038100663</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1662038100663</updated>
+    </task>
+    <task id="LOCAL-00018" summary="C-20: Added projects in portfolio and little bugs fixed">
+      <created>1663157728629</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1663157728629</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -367,6 +389,8 @@
     <MESSAGE value="C-16: Fixed HamburgerMenu display and added Up image in aside on desktop" />
     <MESSAGE value="C-17: Added node in package.json" />
     <MESSAGE value="C-18: Added PortfolioBlock and another bugs fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="C-18: Added PortfolioBlock and another bugs fixed" />
+    <MESSAGE value="C-19: Bugs fixed" />
+    <MESSAGE value="C-20: Added projects in portfolio and little bugs fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="C-20: Added projects in portfolio and little bugs fixed" />
   </component>
 </project>
