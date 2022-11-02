@@ -19,6 +19,87 @@ const selectData = {
     }
 };
 
+const works = [
+      {
+          href: 'https://profolio.dev',
+          image: {
+              url: 'images/portfolio/profolio.jpg',
+          },
+      },
+      {
+          href: 'https://levrudin.ru',
+          image: {
+              url: 'images/portfolio/plastic_clinic.jpg',
+          },
+      },
+      {
+          href: 'https://imcotech.ru',
+          image: {
+              url: 'images/portfolio/maining.jpg',
+          },
+      },
+      {
+          href: 'https://xbanking.org',
+          image: {
+              url: 'images/portfolio/xbanking.jpg',
+          },
+      },
+      {
+          href: '',
+          image: {
+              url: 'images/portfolio/abi.jpg',
+          },
+      },
+      {
+          href: 'https://kreo.pro',
+          image: {
+              url: 'images/portfolio/kreo.jpg',
+          },
+      },
+      {
+          href: 'https://denco.store/fulfillment',
+          image: {
+              url: 'images/portfolio/denco.jpg',
+          },
+      },
+      {
+          href: 'https://github.com/mariknowhere/sirpo',
+          image: {
+              url: 'images/portfolio/sirpo.jpg',
+          },
+      },
+      {
+          href: 'http://obmen.uno',
+          image: {
+              url: 'images/portfolio/currency_exchange.jpg',
+          },
+      },
+      {
+          href: 'http://partyquiz.club',
+          image: {
+              url: 'images/portfolio/party-quiz.jpg',
+          },
+      },
+      {
+          href: '',
+          image: {
+              url: 'images/portfolio/viking.jpg',
+          },
+      },
+      {
+          href: 'https://conomica.ru',
+          image: {
+              url: 'images/portfolio/conomica.jpg',
+          },
+      },
+      {
+          href: 'https://domfk.ru',
+          image: {
+              url: 'images/portfolio/fitness.jpg',
+          },
+      },
+  ];
+
 export const storeEng = {
     asideData: {
         title: 'Social Media',
@@ -402,86 +483,7 @@ export const storeEng = {
         blockId: 'portfolio',
         topic: 'Portfolio',
         title: 'Examples of my work',
-        works: [
-            {
-                href: 'https://profolio.dev',
-                image: {
-                    url: 'images/portfolio/profolio.jpg',
-                },
-            },
-            {
-                href: 'https://plastic-clinic.netlify.app/',
-                image: {
-                    url: 'images/portfolio/plastic_clinic.jpg',
-                },
-            },
-            {
-                href: 'https://imcotech.ru/cryptobox-1000/',
-                image: {
-                    url: 'images/portfolio/maining.jpg',
-                },
-            },
-            {
-                href: 'https://app.xbanking.org/index.html',
-                image: {
-                    url: 'images/portfolio/xbanking.jpg',
-                },
-            },
-            {
-                href: '',
-                image: {
-                    url: 'images/portfolio/abi.jpg',
-                },
-            },
-            {
-                href: 'https://kreo.pro/',
-                image: {
-                    url: 'images/portfolio/kreo.jpg',
-                },
-            },
-            {
-                href: 'https://denco.store/fulfillment',
-                image: {
-                    url: 'images/portfolio/denco.jpg',
-                },
-            },
-            {
-                href: 'https://github.com/mariknowhere/sirpo',
-                image: {
-                    url: 'images/portfolio/sirpo.jpg',
-                },
-            },
-            {
-                href: 'http://obmen.uno/',
-                image: {
-                    url: 'images/portfolio/currency_exchange.jpg',
-                },
-            },
-            {
-                href: 'http://partyquiz.club/',
-                image: {
-                    url: 'images/portfolio/party-quiz.jpg',
-                },
-            },
-            {
-                href: '#',
-                image: {
-                    url: 'images/portfolio/viking.jpg',
-                },
-            },
-            {
-                href: 'https://conomica.ru/',
-                image: {
-                    url: 'images/portfolio/conomica.jpg',
-                },
-            },
-            {
-                href: '#',
-                image: {
-                    url: 'images/portfolio/fitness.jpg',
-                },
-            },
-        ],
+        works,
     },
     contactsBlockData: {
         blockId: 'contacts',
@@ -950,86 +952,7 @@ export const storeRu = {
       blockId: 'portfolio',
       topic: 'Портфолио',
       title: 'Примеры моих работ',
-      works: [
-          {
-              href: 'https://profolio.dev',
-              image: {
-                  url: 'images/portfolio/profolio.jpg',
-              },
-          },
-          {
-              href: 'https://plastic-clinic.netlify.app/',
-              image: {
-                  url: 'images/portfolio/plastic_clinic.jpg',
-              },
-          },
-          {
-              href: 'https://imcotech.ru/cryptobox-1000/',
-              image: {
-                  url: 'images/portfolio/maining.jpg',
-              },
-          },
-          {
-              href: 'https://app.xbanking.org/index.html',
-              image: {
-                  url: 'images/portfolio/xbanking.jpg',
-              },
-          },
-          {
-              href: '',
-              image: {
-                  url: 'images/portfolio/abi.jpg',
-              },
-          },
-          {
-              href: 'https://kreo.pro/',
-              image: {
-                  url: 'images/portfolio/kreo.jpg',
-              },
-          },
-          {
-              href: 'https://denco.store/fulfillment',
-              image: {
-                  url: 'images/portfolio/denco.jpg',
-              },
-          },
-          {
-              href: 'https://github.com/mariknowhere/sirpo',
-              image: {
-                  url: 'images/portfolio/sirpo.jpg',
-              },
-          },
-          {
-              href: 'http://obmen.uno/',
-              image: {
-                  url: 'images/portfolio/currency_exchange.jpg',
-              },
-          },
-          {
-              href: 'http://partyquiz.club/',
-              image: {
-                  url: 'images/portfolio/party-quiz.jpg',
-              },
-          },
-          {
-              href: '#',
-              image: {
-                  url: 'images/portfolio/viking.jpg',
-              },
-          },
-          {
-              href: 'https://conomica.ru/',
-              image: {
-                  url: 'images/portfolio/conomica.jpg',
-              },
-          },
-          {
-              href: '#',
-              image: {
-                  url: 'images/portfolio/fitness.jpg',
-              },
-          },
-      ],
+      works,
     },
     contactsBlockData: {
         blockId: 'contacts',
